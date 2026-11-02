@@ -1,0 +1,84 @@
+\subsection{Datasets and tasks}
+The experiments use the existing PU, PHM09 and JNU recordings. Table~\ref{tab:data}
+summarizes the current protocols. The same tasks and source roles are used
+throughout the Q2 comparisons. Each task is repeated with seeds 0--9.
+
+\begin{table}[pos=htbp]
+\centering\small
+\caption{Current evaluation protocols. Window length and stride are in samples.
+Source validation is separated by recording for PU and PHM09 and by temporal
+blocks for JNU.}
+\label{tab:data}
+\begin{tabular}{lrrrrl}
+\toprule
+Dataset & Classes & Length & Stride & Tasks & Transfer setting\\
+\midrule
+PU & 3 & 5120 & 4096 & 4 & Three conditions to one\\
+PHM09 & 8 & 5333 & 2666 & 20 & Two conditions to one\\
+JNU & 4 & 4000 & 2000 & 3 & Two speeds to one\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+PU uses the Paderborn bearing benchmark \cite{pu}. The four recorded conditions
+are A: 1500 rpm, 0.1 Nm, 1000 N; B: 1500 rpm, 0.7 Nm, 400 N;
+C: 1500 rpm, 0.7 Nm, 1000 N; and D: 900 rpm, 0.7 Nm, 1000 N.
+The current inventory contains 18 bearing IDs, each recorded 20 times per
+condition at 64 kHz. Labels are the retained healthy, inner-race and outer-race
+coarse categories. For each bearing, 16 recordings per source condition are
+assigned to training and four to validation using the recorded seed-specific
+split. The first 60 complete windows of each recording are used; their last
+sample boundary is 246784, so padding is unnecessary. Bearing identities repeat
+across conditions. This protocol evaluates transfer to an unseen condition
+within the recorded bearing collection. It is different from the historical
+six-domain PU protocol that also combines damage-collection membership.
+
+PHM09 uses the gearbox challenge data \cite{phm09}. Its ten domains combine
+shaft rates 30, 35, 40, 45 and 50 Hz with High and Low loads: A/B, C/D, E/F, G/H and
+I/J, respectively. Sampling frequency is 66666.67 Hz. The eight labels denote
+the retained gearbox configurations, with two recording files per
+configuration and condition. There are ten adjacent-domain and ten distant-domain
+tasks; their exact source--target pairs are listed in Appendix~\ref{app:tasks}.
+Recording-grouped source splits retain source-training class coverage.
+Configuration labels are diagnostic categories, not gearbox serial identities.
+
+JNU \cite{jnu} has healthy, inner-race, outer-race and rolling-element labels at 600, 800
+and 1000 rpm, recorded at 50 kHz. A, B and C denote these speeds. Each source
+recording is divided into non-overlapping training and validation time blocks;
+window intervals do not cross the split. All three leave-one-speed tasks are
+retained. The source recordings are not independent new-bearing replications.
+The three leave-one-speed tasks already exhaust the two-source/one-target
+combinations of these three speeds. JNU is retained as an additional
+cross-dataset applicability case; the non-saturated PU and PHM09 tasks provide
+the main discrimination among strong recipes. The existing three-dataset
+summary is retained, with per-dataset results reported alongside it.
+A separately reported single-source extension evaluates all six cross-speed
+directions using source-local numerical analysis (Appendix~\ref{app:jnu-sdg}).
+
+All contexts and paired observations used by the event analyzer lie entirely
+inside the corresponding source-training roles. PU pairing retains recorded
+bearing identity; PHM09 and JNU use same-class legal source pairs without
+inventing an entity ID. Three centered query windows are taken from each
+32768-sample source context for the intervention bank. Target data are used
+only after all new source models in a comparison are frozen.
+
+\subsection{Training and comparison design}
+The matched operator study uses the same convolutional encoder, feature
+normalization, classification head and balanced source sampler. The factual
+batch size is
+$B=DK\lfloor120/(DK)\rfloor$, yielding 117, 112 and 120 for PU, PHM09 and JNU,
+respectively. The actual forward uses the $6B$ layout described in
+Section~\ref{sec:method}. All matched arms use Adam with learning rate
+$10^{-4}$ for 2000 updates and the same initialization and random-draw streams
+within each task and seed. Source validation is evaluated at 0, 1000 and 2000;
+the final state is primary and earliest strict source best is secondary.
+The encoder has three 1D convolutions with 8, 16 and 32 output channels and
+kernel lengths 33, 17 and 3. Each convolution is followed by batch
+normalization, LeakyReLU with slope 0.1 and average pooling of width 2.
+Feature instance normalization, with variance denominator equal to the feature
+length and $\epsilon=10^{-5}$, is applied after the final convolutional block.
+Flattening gives an 8192-dimensional vector. Fully connected layers of widths
+256, 256 and 128 precede the $K$-class output, with LeakyReLU after each hidden
+layer. This network is shared by all matched controls.
+Table~\ref{tab:algorithm} gives the preparation and learning procedure.
+\input{generated/algorithm.tex}

@@ -1,0 +1,22 @@
+\begin{table}[pos=htbp]
+\centering\small
+\caption{Cross-condition window accuracy (\%) at the fixed final state. Entries are mean $\pm$ sample standard deviation over ten runs.}
+\label{tab:main}
+\begin{tabular}{lrrr}
+\toprule
+Method & PU & PHM09 & JNU\\
+\midrule
+Author-backbone CE & $80.63\pm1.38$ & $51.37\pm1.93$ & $83.95\pm7.88$\\
+Author-backbone IN+Mixup & $81.85\pm0.85$ & $68.23\pm1.06$ & $95.31\pm4.86$\\
+CCDG (author feature core) & $81.13\pm1.16$ & $57.47\pm1.73$ & $87.19\pm8.11$\\
+MOCD (prose interpretation) & $80.50\pm0.93$ & $65.26\pm2.51$ & $95.14\pm2.86$\\
+ERM (shared CNN+IN) & $82.97\pm1.34$ & $63.81\pm0.99$ & $99.71\pm0.14$\\
+DANN (source domains) & $80.81\pm1.52$ & $52.94\pm2.40$ & $82.47\pm10.02$\\
+Deep CORAL (source domains) & $82.99\pm1.14$ & $72.65\pm1.25$ & $99.87\pm0.06$\\
+Matched IN+Mixup & $81.44\pm0.98$ & $71.30\pm1.85$ & $99.64\pm0.08$\\
+Unedited source bank & $81.47\pm1.09$ & $71.29\pm1.90$ & $99.64\pm0.13$\\
+Proposed Q2 & $83.12\pm0.94$ & $71.98\pm0.95$ & $99.67\pm0.17$\\
+\bottomrule
+\end{tabular}
+\par\medskip\begin{minipage}{.98\linewidth}\footnotesize Complete recipes share the evaluation roles but retain the stated backbone and schedule adaptations. The last three rows share the complete Q2 training recipe; their difference isolates bank sampling and editing.\end{minipage}
+\end{table}

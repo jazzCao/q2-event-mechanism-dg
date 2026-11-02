@@ -1,0 +1,572 @@
+[
+  {
+    "DOI": "10.1016/j.ress.2025.111925",
+    "title": [
+      "A two-stage semi-supervised domain generalization network for fault diagnosis under unknown working conditions"
+    ],
+    "author": [
+      {
+        "given": "Jianxin",
+        "family": "Cui",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0135-5340",
+        "authenticated-orcid": false,
+        "given": "Junsheng",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mengyu",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhengyang",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chengcheng",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Reliability Engineering &amp; System Safety"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "volume": "267",
+    "issue": null,
+    "article-number": "111925",
+    "URL": "https://doi.org/10.1016/j.ress.2025.111925"
+  },
+  {
+    "DOI": "10.1016/j.ress.2024.110381",
+    "title": [
+      "CIS2N: Causal independence and sparse shift network for rotating machinery fault diagnosis in unseen domains"
+    ],
+    "author": [
+      {
+        "given": "Chang",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2608-4068",
+        "authenticated-orcid": false,
+        "given": "Zuogang",
+        "family": "Shang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaxin",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4180-7137",
+        "authenticated-orcid": false,
+        "given": "Zhibin",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5256-9061",
+        "authenticated-orcid": false,
+        "given": "Baoqing",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shibin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuefeng",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Reliability Engineering &amp; System Safety"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "volume": "251",
+    "issue": null,
+    "article-number": "110381",
+    "URL": "https://doi.org/10.1016/j.ress.2024.110381"
+  },
+  {
+    "DOI": "10.1016/j.ress.2025.111411",
+    "title": [
+      "PC3Net: A prior-causal contrast-collaboration network for single domain generalization fault diagnosis"
+    ],
+    "author": [
+      {
+        "given": "Ning",
+        "family": "Jia",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6734-2019",
+        "authenticated-orcid": false,
+        "given": "Weiguo",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chuancang",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3392-1020",
+        "authenticated-orcid": false,
+        "given": "Jun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhongkui",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Reliability Engineering &amp; System Safety"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "volume": "264",
+    "issue": null,
+    "article-number": "111411",
+    "URL": "https://doi.org/10.1016/j.ress.2025.111411"
+  },
+  {
+    "DOI": "10.1016/j.ress.2025.110999",
+    "title": [
+      "Integrating causal representations with domain adaptation for fault diagnosis"
+    ],
+    "author": [
+      {
+        "given": "Ming",
+        "family": "Jiang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7278-3652",
+        "authenticated-orcid": false,
+        "given": "Kuang",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiahui",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4733-9752",
+        "authenticated-orcid": false,
+        "given": "Fode",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Reliability Engineering &amp; System Safety"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "volume": "260",
+    "issue": null,
+    "article-number": "110999",
+    "URL": "https://doi.org/10.1016/j.ress.2025.110999"
+  },
+  {
+    "DOI": "10.1016/j.ress.2024.110252",
+    "title": [
+      "Single domain generalization method based on anti-causal learning for rotating machinery fault diagnosis"
+    ],
+    "author": [
+      {
+        "given": "Guowei",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xianguang",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qibin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9292-7633",
+        "authenticated-orcid": false,
+        "given": "Jingli",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinrui",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongbo",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Reliability Engineering &amp; System Safety"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "volume": "250",
+    "issue": null,
+    "article-number": "110252",
+    "URL": "https://doi.org/10.1016/j.ress.2024.110252"
+  },
+  {
+    "DOI": "10.1016/j.ress.2024.109964",
+    "title": [
+      "Domain generalization for cross-domain fault diagnosis: An application-oriented perspective and a benchmark study"
+    ],
+    "author": [
+      {
+        "given": "Chao",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Enrico",
+        "family": "Zio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weiming",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Reliability Engineering &amp; System Safety"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "volume": "245",
+    "issue": null,
+    "article-number": "109964",
+    "URL": "https://doi.org/10.1016/j.ress.2024.109964"
+  }
+]

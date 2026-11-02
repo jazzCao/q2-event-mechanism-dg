@@ -1,0 +1,17 @@
+\begin{table}[pos=htbp]
+\centering\small
+\caption{Relationship to representative mechanism-guided approaches. This comparison concerns constructions and information requirements.}
+\label{tab:position}
+\begin{tabular}{>{\raggedright\arraybackslash}p{.19\linewidth}>{\raggedright\arraybackslash}p{.34\linewidth}>{\raggedright\arraybackslash}p{.35\linewidth}}
+\toprule
+Approach & Main learning action & Distinction of the present method\\
+\midrule
+CIS2N \cite{cis2n} & Independence and sparse shifts of learned features & Edits an estimated signal component before feature extraction.\\
+PC3Net \cite{pc3net} & Prior/causal feature collaboration in single-source DG & Uses measured-context event edits and a single deployed classifier.\\
+MOCD \cite{mocd} & Matched pairs and class/domain representation branches & Keeps the measured remainder without a deployed domain branch.\\
+Fault-model-driven DG \cite{pang2024} & Simulated faults with measured normal backgrounds & Retains the remainder of each labeled observation, including faulty recordings.\\
+PCR-OIPN \cite{pcr2026} & Physics-guided counterfactual learning and order interaction & Edits event occurrence with fixed kernels; deployment requires no target speed.\\
+Whole-waveform scaling & Dilation of events, responses and background & Moves estimated events while retaining response shape and observed remainder.\\
+\bottomrule
+\end{tabular}
+\end{table}

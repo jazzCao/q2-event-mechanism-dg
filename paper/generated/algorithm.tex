@@ -1,0 +1,26 @@
+\begin{table}[pos=htbp]
+\caption{Source preparation, learning and deployment procedure.}
+\label{tab:algorithm}
+\begin{minipage}{.98\linewidth}\small
+\begin{enumerate}
+\item Partition the observed source recordings into training and validation
+roles. Select same-class training-context pairs using the declared source
+metadata; retain bearing identity for PU.
+\item Form the response, shaft-harmonic and stationary dictionaries. Run the
+fixed numerical inverse in Eq.~\eqref{eq:inverse} for each registered source pair.
+\item For each source context, render $u_1$ and the two fixed-rate $u_q$ signals.
+Construct $\mathcal T_q(x)$ with Eq.~\eqref{eq:edit}, then crop the three
+observation-supported queries and cache their log-FFT features.
+\item For each training update, sample a balanced factual batch and same-class,
+same-source-condition bank slots. Draw the shared edit mask and rate direction;
+form the auxiliary features using Eq.~\eqref{eq:aux}.
+\item Draw the Mixup coefficient and permutation. Update the shared classifier
+using Eq.~\eqref{eq:loss} with the common $6B$ forward layout.
+\item Freeze the classifier after 2000 updates for the primary evaluation.
+Evaluate source-validation selection separately as a secondary policy.
+\item At deployment, apply the log-FFT frontend and trained classifier to each
+vibration window. Average probabilities only when reporting recording-level
+diagnosis.
+\end{enumerate}
+\end{minipage}
+\end{table}

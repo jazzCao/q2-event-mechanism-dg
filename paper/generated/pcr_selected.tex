@@ -1,0 +1,21 @@
+\begin{table}[pos=htbp]
+\centering\footnotesize
+\caption{PU recording-level comparison, ten runs, source-selected state. All scores are percentages.}
+\label{tab:pcr-selected}
+\begin{tabular}{lrrr}
+\toprule
+Recipe & Accuracy & Macro-F1 & Balanced accuracy\\
+\midrule
+Q2, short vibration input & $84.74\pm1.07$ & $83.90\pm1.07$ & $87.71\pm0.76$\\
+Matched IN+Mixup & $83.58\pm1.20$ & $82.99\pm1.40$ & $86.73\pm1.15$\\
+Unedited bank & $83.83\pm1.26$ & $83.04\pm1.16$ & $86.85\pm1.10$\\
+Native 40-rev. author CE & $85.73\pm1.64$ & $82.15\pm1.45$ & $84.55\pm2.05$\\
+Native 40-rev. CE+real healthy & $85.28\pm1.92$ & $82.37\pm1.76$ & $85.74\pm2.13$\\
+Native 40-rev. PCR & $82.47\pm0.71$ & $80.26\pm1.02$ & $84.35\pm1.14$\\
+Short-input author CE & $83.96\pm0.75$ & $76.05\pm0.62$ & $75.66\pm0.94$\\
+Short-input CE+real healthy & $83.90\pm1.23$ & $75.90\pm1.19$ & $75.79\pm1.26$\\
+Short-input PCR & $83.64\pm1.02$ & $75.55\pm1.20$ & $74.84\pm1.53$\\
+\bottomrule
+\end{tabular}
+\par\medskip\begin{minipage}{.98\linewidth}\footnotesize Native PCR uses recorded speed to construct 40-revolution inputs. The comparison aligns recording roles, not input windows or architectures. This is a declared cross-condition adaptation of a single-source cross-machine method.\end{minipage}
+\end{table}

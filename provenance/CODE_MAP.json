@@ -1,0 +1,9 @@
+{
+  "source_analysis": "scripts/50_bearing_cnsr/clock_real_core.py",
+  "continuous_renderer": "scripts/50_bearing_cnsr/continuous_event_core_v2.py",
+  "Q2_bank": "scripts/50_bearing_cnsr/event_full_validation_source.py",
+  "Q2_batch": "scripts/50_bearing_cnsr/event_full_validation_neural.py",
+  "six_B_loss": "scripts/50_bearing_cnsr/compatible_set_core.py",
+  "ten_run_source": "scripts/50_bearing_cnsr/tenrepeat_matched_source.py",
+  "baseline_extension": "scripts/50_bearing_cnsr/tenrepeat_baseline_addon.py"
+}

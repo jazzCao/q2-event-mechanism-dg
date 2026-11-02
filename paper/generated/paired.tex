@@ -1,0 +1,22 @@
+\begin{table}[pos=htbp]
+\centering\small
+\caption{Dataset-equal paired accuracy differences: Q2 minus each control (percentage points). Intervals are descriptive 95\% $t_9$ intervals over ten paired run averages.}
+\label{tab:paired}
+\begin{tabular}{lrrr}
+\toprule
+Control & Mean difference & 95\% interval & Positive runs\\
+\midrule
+Matched IN+Mixup & $+0.801$ & $[+0.342, +1.259]$ & 9/10\\
+Unedited bank & $+0.791$ & $[+0.312, +1.270]$ & 9/10\\
+Timing, endpoint rates & $+0.247$ & $[-0.021, +0.514]$ & 7/10\\
+Timing, Q2 rates & $+0.346$ & $[+0.243, +0.448]$ & 10/10\\
+Impulse only & $+0.355$ & $[-0.013, +0.724]$ & 9/10\\
+Global moment matching & $+0.676$ & $[+0.325, +1.027]$ & 9/10\\
+Half-exposure Q2 & $+0.107$ & $[-0.163, +0.378]$ & 5/10\\
+Expected-energy shrinkage & $+0.268$ & $[+0.081, +0.456]$ & 9/10\\
+Deep CORAL & $-0.247$ & $[-0.597, +0.103]$ & 3/10\\
+ERM & $+2.759$ & $[+2.406, +3.112]$ & 10/10\\
+\bottomrule
+\end{tabular}
+\par\medskip\begin{minipage}{.98\linewidth}\footnotesize These post-result intervals are unadjusted for multiple comparisons and conditional on the fixed task panel; they are not intervals over independent machine populations.\end{minipage}
+\end{table}

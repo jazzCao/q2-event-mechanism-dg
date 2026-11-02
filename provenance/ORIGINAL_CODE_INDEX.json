@@ -1,0 +1,1094 @@
+{
+  "sources": {
+    "scripts/50_bearing_cnsr/abduction_action_core.py": {
+      "sha256": "966ddf1f49475ffe60d8b3b99e7e8845510dd1cae24e32d888fc3fb3c287596a",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/abduction_action_plan.py": {
+      "sha256": "6621b9cb33fa529f3d6b9629823f4254f41a9fc91abd8137a6ecea7fdec03f3e",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/abduction_family_core.py": {
+      "sha256": "aded5f0fd396cff65fd07f5b05579f354c4e49df7dcbae6aadacf94d6bf1ab21",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/audit_continuous_event_core.py": {
+      "sha256": "619c083b50484e6271a0fc7a70b73831fc2b895fe3d8e1616518355b908efe2e",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/audit_e0_source_geometry.py": {
+      "sha256": "fe31bda80dd07023544024d97969ab21739b7642220b4dcca2c6ff13e9aefa09",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/audit_e0_train_only_design.py": {
+      "sha256": "d424d9e237c091403d87df34e7688cbbbbc2ade466aa49035e6b3068d6b55d35",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/check_e0_natural_source_support.py": {
+      "sha256": "7203963450ccde92f5e4dc0eb1c3a8bf1c62726bd2d926b5126e98aa1186af16",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/check_rate_impulse_screen.py": {
+      "sha256": "0e6daf3a13d5600f4146ff02f057d47b9a1b5431811e6f8ea7b907ef41d1cad8",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/clock_factual_data.py": {
+      "sha256": "31c367b9a792e2453e8c820a61b25b85e11361513f52787332ccaaa19e61d108",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/clock_real_core.py": {
+      "sha256": "b90a9eedd7158fa541f3e8254ed8508fa5f1d3fffafe645d79e6b21f1b5a4484",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/clock_real_data.py": {
+      "sha256": "a97a73b9924ea5b7e2ad23cb4edebf009ab1051bec994f21e9c6b69b700da686",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/clock_real_graph_core.py": {
+      "sha256": "1be88448b9d2a3f1dc0030d19704b042814f1eb35aab1d25563fad02c9785fa2",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/clock_real_model.py": {
+      "sha256": "c5013ffd6ffca979d5d87ea51620f55e06ffd8dbdc643dac1d9a86ad8c0d9a48",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/clock_uniform_data.py": {
+      "sha256": "49198cde7747b2266b376e5cf811f07b151109e288d7afb69446328d304c79dd",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/compatible_set_control.py": {
+      "sha256": "88b5a496f2c29b3322ddd8341b859b2834d8f7b385fecf60cb25172edd814cb9",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/compatible_set_core.py": {
+      "sha256": "cf00333044bab107d217a3ca02a91d8afa5103627be34f3f5535d15539af3b3a",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/compatible_set_neural.py": {
+      "sha256": "7ff08d939470b170dc3170d686d78ca0f403213800832827ff32d7f64ebd6138",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/compatible_set_plan.py": {
+      "sha256": "068c566e071ce390fd0718a08e144c17915fac17078a9e5fe64146f77447291e",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/compatible_set_screen_plan.py": {
+      "sha256": "e4dac0db394af12697900013bdad0e37010bfa5dc26df22702c21ff411c1f770",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/compatible_set_source.py": {
+      "sha256": "6126850fc834cb47791b6bdfdce80622121d004b91a74d2fc639493cb8daf716",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/continuous_event_core.py": {
+      "sha256": "d270617cf81563832711b27f9b3664339ba6c8dfec7c37dcf26d6f0806ec2c24",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/continuous_event_core_v2.py": {
+      "sha256": "1bc2a3363daa65870cb3b1b82a7f20d8c2241f7e04c93ee8b39a10c60721f17b",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/continuous_event_plan.py": {
+      "sha256": "d5cbeecc7dee1767e3f848dd8548b9b8bcf57792c2617f59c73d5ae8fce16550",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/design_e0_natural_source_probe_v2.py": {
+      "sha256": "07313d6c9fe28d27c87662ecff66d22ac9d80916ad18ec7852a586ff68a7bc81",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_control.py": {
+      "sha256": "ec3a1b6a517e38868b275199923a28ed8d2247cce57368e761b4046d93abc364",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_entry_spec.py": {
+      "sha256": "16e24a165c63d5acc7d95d71a58e5795ec4b3d1e8c9d870b4db0fa26a16fb3f4",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_files.py": {
+      "sha256": "61bce8b6a10d2122419f1131ca25cb03124d5664a9e2092e2bbdbe9526586f35",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_files_v2.py": {
+      "sha256": "0f2c024fdac0088081f8ff57d61e3b8aca2f95c1b1e1338afea80f20fa96dadd",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_metrics.py": {
+      "sha256": "e65370c8ba5cd208cd44276b15760303cdc0cbfce755b133e2857fa4d30b5c76",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_schedule.py": {
+      "sha256": "a42bf83d3e65af4902f4583e7e64ddadb08c1c2f8ec85f8810e16fd14205a58f",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_source_arrays.py": {
+      "sha256": "37311618327590ba7911f75ccdd25b8878da3b0f7dac7403d01e851dcc954b56",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/e0_selection_worker_spec.py": {
+      "sha256": "c5c69112e09ab76972597521957ba0ef41b3be8690b5778244851c04b87b79db",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_check.py": {
+      "sha256": "073608ace30b6873bddcebe9231e0390beba02c79b89ddb9060aed12b0908f95",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_core.py": {
+      "sha256": "277cf5a0f3a240bcd8b9ad411706e18b731b1e0dfff9afcd4fe3295119fb4b0b",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_core_test.py": {
+      "sha256": "7916c57d1450970b52a28f25496e5cf3a7cefa4cdc89c7a601b6c63659c61581",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_decision.py": {
+      "sha256": "88018154242adea83d525f26bab39eb309de53fd30c551c52ff550a26e3db3b5",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_execution.py": {
+      "sha256": "dae97619e2c7882ace451c775365342550f78897cd337b7c64f729fa6fb4c2b0",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_metadata.py": {
+      "sha256": "20fdb9deb03084fe1f8489bc25082197b3cdc004ab574781e2b852d95415d3c7",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_neural.py": {
+      "sha256": "c82a71fc1301af876778af254fb8358d4f71f24564c7ab9a778712b03df66ffe",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_run.py": {
+      "sha256": "0c2042cd5cc5896a449c90f15f4837a15a41edefe8a38cb4737b831cb845ded9",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_source.py": {
+      "sha256": "c463a62d4b08c6b228ad267f49e6f52e4fffba3372906bd8f8aca1296ed3113d",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_component_test.py": {
+      "sha256": "1ae22420ae5492a74ff692156aeeee42e0804c9505d1a774aec9e34e26b94a91",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_closed_comparison.py": {
+      "sha256": "9a940dfc0b38584d142ca64eb9fc882b7fde355d2754c8d6eef6160d6e64696f",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_closed_comparison_test.py": {
+      "sha256": "359f85b1de6a7eba79bd15a14ce105718131fe34db53976c5a8b729dd42491aa",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_check.py": {
+      "sha256": "6ff3118e6b010b2a2a685466c7c2d7e9496129091e5f17f9326a2e4b829fb5e2",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_decision.py": {
+      "sha256": "694d10d7d676d9d4814456348fc805095b3cb8b997fb1552f61ad27b413d0352",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_execution.py": {
+      "sha256": "0ff4eb9c9d463cf8201d35ef0ac0ed8c62656de3c211d44e01fb8f540378289e",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_neural.py": {
+      "sha256": "3486c119f289d3ecdbbfd9fd6f95cde8f9033d2a27f9b2e275ef50cfda4243bb",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_plan.py": {
+      "sha256": "5267677f81250249dca2ce16ba2a44972692b098458e791689aba77a5829133b",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_run.py": {
+      "sha256": "71c6e64ff29ee37d83b18e79338a9c02724f9f11949a6faa36143246a7b5f272",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_schedule.py": {
+      "sha256": "161492c21c99a5b4decd8e2b1c0c39ae1367af9bdf3885a61e54d555e01cb575",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_source.py": {
+      "sha256": "e512570991ec70aa853c138e71ec5eca89fe9a9a2ecacfae31c207095b9177ef",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_full_validation_test.py": {
+      "sha256": "36732cdbd132ed21bca38b13930051c6fc70ea958b3329515ca0bda4718a95fb",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/interval_coverage_core.py": {
+      "sha256": "edb505831e3491d9a4dfdb0fb28909c81b1419ec59460b789b39a27d2e97696b",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/interval_coverage_neural.py": {
+      "sha256": "245885a53535b3b420490655081fcc85238119786b6d11a25255bdd64bee2bd7",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/interval_coverage_plan.py": {
+      "sha256": "3e33b063ab11fa2e937e71f2d020e60d10b48f87b8f37448240eb87f1a9b436a",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/inventory_protected_response.py": {
+      "sha256": "a6d0ff2ca2c5cc4aa20e9b8138cecd8aab94573b55055674506daf2ac5cf8306",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/natural_mapping_probe_core.py": {
+      "sha256": "52127d83607fb6af6dd54c4c1bd27a2648bf23a936707caf30a3cf29fa34a344",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/natural_mapping_probe_plan.py": {
+      "sha256": "31635aeb2a8bf4be89975497543030aee7427de4f240bed0149fd5b95240702c",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/protected_response_core.py": {
+      "sha256": "fff01cc3da4abf75fe72edd7b1e700963db88c22124040245ff88ca3a1d0885d",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/protected_response_journal.py": {
+      "sha256": "75d9081acc0732ca3ca3893fc43aa1b71231840699f26c68d09273bfeb4123f6",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/protected_response_payloads.py": {
+      "sha256": "d637ff6c9373b5a7267933096ebc71f399342f0ac19d51f6a297be18bdf4b272",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/protected_response_run_spec.py": {
+      "sha256": "1e2ef77e2031521bd7a4635890dae029dc332c922a3a58145a343247b7ace399",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/rate_impulse_core.py": {
+      "sha256": "76bf75ba7d824a8f92846833e3da7b14e2e309fe87b9fa8d78927fdef031e607",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/rate_impulse_repeat_neural.py": {
+      "sha256": "fc68f55eb34fb90f553026ce4fd922b9132e142b77706701910ac259df55e44c",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/rate_impulse_repeat_plan.py": {
+      "sha256": "438cda970a95bf2882f8f6bad8cc722d7d9a075ec1b328bef91759a39100760c",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/rate_impulse_screen_neural.py": {
+      "sha256": "1445be19ac0aef2a7bdf07a933923c555671707f633faacbca511839cf4351a1",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/rate_impulse_screen_plan.py": {
+      "sha256": "6ef9cc56e35a5463491272fcbc22d3bb74a5d73b5af2353f8b3b620eb5f8d239",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/run_abduction_action.py": {
+      "sha256": "6b3fd6b481c6dd4312d2614bfe853273d6324820834cf313425ccd1e3806d2f6",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/run_continuous_event_core.py": {
+      "sha256": "249bf6bf28d8bc1067141c0069501fa377402aa7914a1fb8b9028d7acdc5dccb",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/run_source_rate_screen.py": {
+      "sha256": "6a8c7efdeb5707d6a57826f4d0118a1b9ea5e3d404765b317f0f35245a154b27",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/shared_clock_core.py": {
+      "sha256": "d8a37a188ed1c3ea1b5885bfc77a6aba9fc4235282f9b9a36ed96976ac55faf6",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/source_rate_core.py": {
+      "sha256": "59cbe65459a40f6403b7a7acf59f770bbd7cb3cd3c3a563a077fe8e1758b00db",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/source_rate_neural.py": {
+      "sha256": "31b4d822692fa9e96e85c60a0749ba832f3e9c3a30e7719e4cd06abb65a1ff52",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/source_rate_plan.py": {
+      "sha256": "a7a11fa40c3858c3dd0fbc06ffc02b2468795cac87693c8ed347050eac60867f",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/source_rate_screen_data.py": {
+      "sha256": "5e2a22a0cd242de6f82774cc97bc487458c7ca0bc82d38857b925aaba21c39d4",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/source_rate_screen_plan.py": {
+      "sha256": "9fdedaf3cad92a5a41a6b6c920d5f7d84135cab59a243a605b5cbd9cf764a832",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/source_rate_screen_runtime.py": {
+      "sha256": "7677b293b1d40a98ecb12944ed034b7e2b38c8eb2a1bb63c6e5a3d13b4f51df8",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_source_banks.py": {
+      "sha256": "8aaae48a3fcc22d5d19564c1fa45bdf07bae754e7bd3ce8a99eeddf80e69bd8f",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_source_metadata.py": {
+      "sha256": "07f50e780cf1baaa37e8aabdccd15d8cb1df1d8042465293626bd8d65a4d886f",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/test_compatible_set.py": {
+      "sha256": "4ef05528dd5e8cf67133bdbdbf0bfa4f68eaa81c59c2a6b1b7698834847f588d",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/test_continuous_event_metadata.py": {
+      "sha256": "1cdf0ae865530bda92e0500e0c5ae95e3f4860102a38d4418edf4d0f3df9cb43",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/mocd_model.py": {
+      "sha256": "30d9ef914737a2931735720097c01c6e05385223a53233fe1aea49636a3c02e6",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/model.py": {
+      "sha256": "3496674bfd806b6b2262d1d4a66305cc3903573e9432af252a88584da439aa94",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mdg_banks/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/q2_exposure_core.py": {
+      "sha256": "2398d76dd26bbde55a8702e174888b9ac5154f70339e1dd56fefa45a8b4f1632",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/q2_exposure_neural.py": {
+      "sha256": "2e8875206f1a32247c4ee10f7c1c85c9cdb699b4ce5624a662488896a688a776",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/q2_exposure_plan.py": {
+      "sha256": "56d5570c1be6116f77608dfe3612523f11ec51b275add5d89d8d5c31bd6ea89e",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_matched_source.py": {
+      "sha256": "b4f5d2b619ed1f129038cdad81314385545e71001307ee6d17ef4fd7d7dcab2a",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/matched_source/pu_clock4/LOCK_V1.json.gz",
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/author_pu_6domain.py": {
+      "sha256": "f6ddc1866568443fc53a3912a3b67c1188013001bd0fd1a5e4d8bb5f8a3900d8",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_author_native_engine.py": {
+      "sha256": "17a39d11abee32d065f80b6e431fb50c4e207cf4a051966589d15ada8b13ea7a",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_author_sources.py": {
+      "sha256": "f9c7667cbc14bbb60553acb427650dcf841e70dea3f7df02db39f7fe87b5c780",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_native_main_core.py": {
+      "sha256": "8f147eb8f430745451dc933dff1c53dd76b23743246fd4aa0f2f495abe744f08",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_native_main_metadata.py": {
+      "sha256": "4b47ae4e749ddcad5db50d993410413320379c71e9d2e72946be508da9713186",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_native_main_neural.py": {
+      "sha256": "fe0475bc1ad513251cfa0c7d180ac0db87e2be922f6b24b68e3e70ac75d360f6",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/event_native_main_sources.py": {
+      "sha256": "75232619541a15a9d06ddbe09e1a1403f37b4f7cd53806f108d9160715e50b71",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_audit_cpu_view_v2.py": {
+      "sha256": "a617ccb2109116b52442a92491165a784f801d37e40784713a0aaf6610ea7ab1",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_full_engine.py": {
+      "sha256": "853b04e59cfe6c717721014e844a8461921d8b37d31485e706f8046ec2f7b26a",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_full_matching.py": {
+      "sha256": "6e7d206baef7bde5179f603ee49ee9cc9be4af64d82d5cbd010d17e149d6c328",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_matching_state.py": {
+      "sha256": "f5a59da7e0ddb38f789b57dabf9ac25fdd0a0b689f3a7a0a1a810866ca9d258d",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_paper_components.py": {
+      "sha256": "4d7cfdc39777ba9d3da18057c2fbff886f0e3d65994858838d904ecf6ed9c686",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_schedule_control.py": {
+      "sha256": "52d6031b29adba984471f6deaeb57ad7dd09f9c69c8749ec2d883ce429ae520b",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/pcr_campaign_core.py": {
+      "sha256": "d907887b1948424aafa7bb26a975795abb3dadb21d7d161dfd02ae338ff72edb",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/qualify_ress_literature_components.py": {
+      "sha256": "504e6f2b8d523375fdfa2168fa14424ebc049d6616fc7780e62dec972ac76dd3",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_durable.py": {
+      "sha256": "e9cc12811e0f5b154caaedaf8e7c2c19a63d41c89b5411bb31f6bc52b1a86ff5",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_native_source.py": {
+      "sha256": "96f44ee526d7b79e48cca4e7fa3904ef0cc85d68cde5c5c0fb9e16038ee0b94f",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/angular.py": {
+      "sha256": "a7c5dab29cd85df9965e896e3b8bdf8f9701084b8de2f140e92240e95d820b74",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/data.py": {
+      "sha256": "f7537f6b3306ccaccee87341b523a221831f7a9a61c4ac34a2a2dd80f190cc51",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/mocd_pu.py": {
+      "sha256": "b214d1771e580f096a7663e91830f314577603958b2da455233af53883c8d6d7",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/mocd_train.py": {
+      "sha256": "17a9e6b047c3db09dc00c2efbf1d6357cecbc61a3ba0a3baf081e5c157edb712",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/residual.py": {
+      "sha256": "df8819ee52ea742c21e093064bd75cb36cca91675181f200ac24fbd87b827fcb",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/ress_ccdg_matched/author.py": {
+      "sha256": "4780f8b37ed2b36089192f750d2c4848057866e8720e214d2566dd843db4f7e5",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/wfdg/ress_source_dg/spec.py": {
+      "sha256": "a92b06fab42eab0dea8c47acc9f59298f39c9c5870e6d9a0fccb046a21e16505",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/native_source/LOCK_V2.json.gz",
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_legacy_source.py": {
+      "sha256": "1511023ada5da4e6ecc627a51feeec13b35dfe729907d2638c085c2c74d63572",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/legacy_source/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_complete_cache.py": {
+      "sha256": "c8f7f6312f4525ba860f711fdeb0c199050aefa077153fe7a3872a84a5dacf25",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_complete_control.py": {
+      "sha256": "f4003f27697941f71bd275898f9d967d1439df8299c5cb77c2f270fa9bfa4727",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_complete_factory.py": {
+      "sha256": "8550a66a96ec98a9eaf04146a907d8f6f34d2e0a97e25ac21eac237982a47449",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_complete_metadata.py": {
+      "sha256": "7884e7dc943ebc1eea7814eb816c7381a71d54d9f1bc06c7713a9323025f1274",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_complete_neural.py": {
+      "sha256": "aad4347cebb2d2f3a136f1714321f6b291a4c7525d47b6bdfd7d855f20debf15",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_complete_source_adapter.py": {
+      "sha256": "5ac03192cbd368b88ee424d3a89edb4e7783be333c81296727046436aa2b6af8",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/mocd_full_source_engine.py": {
+      "sha256": "4e1ec5fb6c4c476cd8ced5d7aebc621d83ee9d8022be5658e84a01d7e2f422bc",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_mocd_source.py": {
+      "sha256": "6607f950bed4efc8f5b1a56d1d4adadbf6e7991c8e26598d5c856814f9122cc3",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/mocd_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/pcr_campaign_data.py": {
+      "sha256": "54cd3333d5e1c87adff210e0fab8cf467b211d572b5d1472fb2b9afb03eec9b1",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/pcr_campaign_neural.py": {
+      "sha256": "3e6e1dd0c12e1323b87752da95e5b59728e076fa1188c29779f655bd867f8299",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/pcr_physics_adapter.py": {
+      "sha256": "dc64b7a6df122739ed8605678082d1f904cad1e7c9e8d8fd9de86696df366cfc",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/pcr_training_design.py": {
+      "sha256": "7a4edff987f0a91a33ad9cc871d656712bf51440365155f0c0c921777da800c9",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/prepare_pcr_comparison.py": {
+      "sha256": "bc561b102fad281e4981bd32a3cea2e7c4dd692f65eb8522e0d1e97bb82b11e5",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_pcr_source.py": {
+      "sha256": "664af7578fdf947e095b2f9d260dd0508074789f5ede2bb42a60d63e0a753eb6",
+      "locks": [
+        "results/wfdg/ress_tenseed_all/pcr_source/LOCK_V2.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/continue_compatible_set.py": {
+      "sha256": "0f9a7a5033a49e63b25bfe89afb18ce215d5a132a072d903ddbae6623355bcd5",
+      "locks": [
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_baseline_addon.py": {
+      "sha256": "511057b56235148b40db8869fe81a5bd44aadc4b0268084f4a2d24fe0df2df34",
+      "locks": [
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_baseline_addon_spec.py": {
+      "sha256": "2b3f4ae67cf44e9bda000ea2278a73ce0c7c749056e33999b96a5ceb80d4023b",
+      "locks": [
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    },
+    "scripts/50_bearing_cnsr/tenrepeat_summarize.py": {
+      "sha256": "4215d61375c9887f37828ed7714efa1c65c304054b88561b6a3c36bc552300e3",
+      "locks": [
+        "results/wfdg/ress_tenseed_baseline_addon/LOCK_V1.json.gz"
+      ]
+    }
+  },
+  "changed_since_lock": [],
+  "note": "Archive code remains in the development repository at these exact paths. No launch of historical queues is required to inspect it."
+}

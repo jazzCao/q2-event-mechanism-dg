@@ -1,0 +1,17 @@
+\begin{table}[pos=htbp]
+\centering\small
+\caption{JNU single-source extension: all six source--target directions, ten runs.}
+\label{tab:sdg}
+\begin{tabular}{llrrr}
+\toprule
+Policy & Method & Accuracy & Macro-F1 & Recording BA\\
+\midrule
+Final & IN+Mixup & $94.95\pm1.05$ & $94.72\pm0.90$ & $99.17\pm1.76$\\
+Final & Unedited bank & $95.61\pm0.72$ & $95.32\pm0.65$ & $99.58\pm1.32$\\
+Final & Q2 & $95.72\pm0.74$ & $95.44\pm0.63$ & $99.17\pm1.76$\\
+Source-selected & IN+Mixup & $95.28\pm0.90$ & $94.89\pm0.74$ & $97.92\pm2.20$\\
+Source-selected & Unedited bank & $94.78\pm1.54$ & $94.52\pm1.25$ & $98.33\pm2.15$\\
+Source-selected & Q2 & $95.22\pm1.11$ & $94.85\pm0.91$ & $98.75\pm2.01$\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+outputs/
+*.aux
+*.log
+*.out
+*.abs
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+!paper/*.pdf
+!paper/generated/*.pdf

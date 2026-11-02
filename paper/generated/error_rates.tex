@@ -1,0 +1,16 @@
+\begin{table}[pos=htbp]
+\centering\small
+\caption{PU recording-level error rates (\%), ten runs. A lower value is better.}
+\label{tab:errors}
+\begin{tabular}{lrrr}
+\toprule
+Method & Healthy false alarms & Faults called healthy & Inner/outer confusion\\
+\midrule
+Matched IN+Mixup & $3.69\pm2.37$ & $10.41\pm1.79$ & $7.88\pm0.84$\\
+Unedited bank & $3.69\pm2.25$ & $10.38\pm1.38$ & $7.41\pm0.88$\\
+Proposed Q2 & $3.19\pm1.52$ & $9.12\pm1.06$ & $7.57\pm0.71$\\
+Deep CORAL (source domains) & $6.62\pm4.78$ & $8.43\pm1.65$ & $7.97\pm1.72$\\
+\bottomrule
+\end{tabular}
+\par\medskip\begin{minipage}{.98\linewidth}\footnotesize Healthy false alarms use healthy recordings as denominator. The other two rates use all faulty recordings. Scores are computed per task and then averaged within each run; they are empirical classification errors, not system failure probabilities.\end{minipage}
+\end{table}

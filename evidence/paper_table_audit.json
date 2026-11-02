@@ -1,0 +1,4916 @@
+{
+  "status": "PASS",
+  "source": "C:\\Users\\20698\\Desktop\\因果推断支持的去工况算法\\results\\wfdg\\ress_tenseed_baseline_addon\\COMBINED_FULL_TEN_RUN_RESULTS_V2.json",
+  "sha256": "0bd673143afbe0b3faffe08c518fca3a52c3f1d26c323162be7a6e00a4e5b5d8",
+  "semantic_models": 6270,
+  "roles": 12720,
+  "table_values": [
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.6263888888889,
+      "sd": 1.3823049751672203
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 51.366792929292934,
+      "sd": 1.9344068027117443
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 83.94607843137256,
+      "sd": 7.88182546317253
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.84918981481482,
+      "sd": 0.8468061086703904
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 68.2282196969697,
+      "sd": 1.0623291332634408
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 95.30525846702318,
+      "sd": 4.86231299090494
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.12511574074072,
+      "sd": 1.1557540209506096
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 57.47411616161615,
+      "sd": 1.7308637923793244
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 87.19251336898395,
+      "sd": 8.110474764776901
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.50127314814816,
+      "sd": 0.9257153904805573
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 65.26010101010101,
+      "sd": 2.507421703821418
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 95.13814616755792,
+      "sd": 2.8581707937347307
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.97361111111111,
+      "sd": 1.3418431505918527
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 63.808396464646464,
+      "sd": 0.9906289561624975
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.71256684491979,
+      "sd": 0.14031340732123673
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.8074074074074,
+      "sd": 1.5197651211526215
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 52.94191919191919,
+      "sd": 2.4019660234330455
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.47103386809269,
+      "sd": 10.021180046707284
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.99166666666666,
+      "sd": 1.1404941961325965
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 72.65467171717172,
+      "sd": 1.2500956498451903
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.86631016042782,
+      "sd": 0.05656397137450993
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.43657407407407,
+      "sd": 0.9758140831658126
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.2964015151515,
+      "sd": 1.8480433473215394
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.63680926916221,
+      "sd": 0.07933571118970117
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.46608796296296,
+      "sd": 1.0886651226091202
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.28977272727272,
+      "sd": 1.9049351122883544
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.64349376114083,
+      "sd": 0.1294978889940743
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 83.11875,
+      "sd": 0.9429809805440031
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.98263888888887,
+      "sd": 0.9496774908594287
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.67023172905526,
+      "sd": 0.16667434524864402
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.51398414641677,
+      "sd": 1.3369710048010917
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 58.507470740680596,
+      "sd": 1.207803091761715
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.66979009573438,
+      "sd": 0.17447537389629528
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.2719802228068,
+      "sd": 0.9986001091899667
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.69392520999887,
+      "sd": 1.4410716006822082
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.83998799231658,
+      "sd": 0.07210917183849848
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 80.06513522131544,
+      "sd": 1.0211052343088556
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 67.74587295979069,
+      "sd": 2.145439434196719
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.62314963338363,
+      "sd": 0.088561899245167
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.56720473083706,
+      "sd": 0.849995148144386
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.6634993036757,
+      "sd": 1.1794688057557452
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.64632857490186,
+      "sd": 0.16965496642554193
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.97395833333333,
+      "sd": 2.429246919533876
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 66.15625,
+      "sd": 1.0211521610960392
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.85937500000001,
+      "sd": 1.918862281570176
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 75.5625,
+      "sd": 1.5152580454973485
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.57812500000001,
+      "sd": 1.2444538418854039
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 74.9375,
+      "sd": 2.9492230615310646
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.8125,
+      "sd": 0.8275260616536817
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 76.71875,
+      "sd": 1.7068718341847853
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.43657407407407,
+      "sd": 0.9758140831658126
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.2964015151515,
+      "sd": 1.8480433473215394
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.63680926916221,
+      "sd": 0.07933571118970117
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.46608796296296,
+      "sd": 1.0886651226091202
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.28977272727272,
+      "sd": 1.9049351122883544
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.64349376114083,
+      "sd": 0.1294978889940743
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.81967592592594,
+      "sd": 1.0248120303963923
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.59122474747475,
+      "sd": 1.1563245336044974
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.62121212121212,
+      "sd": 0.1878952858091735
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.84178240740741,
+      "sd": 0.8527974952954589
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.25820707070707,
+      "sd": 0.8361466430378743
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.63458110516935,
+      "sd": 0.13377233870967956
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.46296296296296,
+      "sd": 1.189545197910965
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 72.58364898989899,
+      "sd": 1.5179972413869183
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.65909090909092,
+      "sd": 0.11978324470335168
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.35520833333335,
+      "sd": 0.8744147130328235
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.69444444444446,
+      "sd": 1.271560005095159
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.69474153297683,
+      "sd": 0.06971301265749986
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 83.11875,
+      "sd": 0.9429809805440031
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.98263888888887,
+      "sd": 0.9496774908594287
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.67023172905526,
+      "sd": 0.16667434524864402
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 83.03726851851852,
+      "sd": 1.0381585015409522
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.96969696969697,
+      "sd": 1.1402005696201063
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.87967914438502,
+      "sd": 0.062317816290564876
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.37500000000001,
+      "sd": 0.9204735945583798
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.39962121212122,
+      "sd": 1.4975139896308503
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.71702317290554,
+      "sd": 0.11839360086756642
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.49317129629631,
+      "sd": 1.1647716399684733
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.38636363636364,
+      "sd": 1.4640702175848896
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.70811051693404,
+      "sd": 0.10579543303962499
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.68310185185184,
+      "sd": 1.0127153584842379
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.78724747474747,
+      "sd": 1.0730010231377403
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.69696969696969,
+      "sd": 0.10194509766353575
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.82129629629628,
+      "sd": 0.8577138073107418
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 70.9185606060606,
+      "sd": 0.9256353328053091
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.69251336898397,
+      "sd": 0.11874253649263772
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.53078703703704,
+      "sd": 1.0847164480683216
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 72.94728535353536,
+      "sd": 0.9231538628757031
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.68582887700533,
+      "sd": 0.0887854931804447
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.58668981481483,
+      "sd": 1.3519716886343505
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 72.99621212121211,
+      "sd": 1.5468873735347264
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.75267379679144,
+      "sd": 0.08690156968674043
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 83.00162037037038,
+      "sd": 1.0527402374310901
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.58301767676768,
+      "sd": 1.2226840707362285
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.74376114081997,
+      "sd": 0.06496158528125681
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.51435185185186,
+      "sd": 1.165135618446871
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.80650252525254,
+      "sd": 1.2420835621473056
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.6457219251337,
+      "sd": 0.11527743299875653
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.81979166666667,
+      "sd": 1.0640029292660385
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.94444444444444,
+      "sd": 1.1260924781387136
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.68582887700535,
+      "sd": 0.08366748375899163
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 83.11875,
+      "sd": 0.9429809805440031
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.98263888888887,
+      "sd": 0.9496774908594287
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.67023172905526,
+      "sd": 0.16667434524864402
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.6263888888889,
+      "sd": 1.3823049751672203
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 51.366792929292934,
+      "sd": 1.9344068027117443
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 83.94607843137256,
+      "sd": 7.88182546317253
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.84918981481482,
+      "sd": 0.8468061086703904
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 68.2282196969697,
+      "sd": 1.0623291332634408
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 95.30525846702318,
+      "sd": 4.86231299090494
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.8607638888889,
+      "sd": 0.38686622252683545
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 67.67613636363637,
+      "sd": 1.4034371584561982
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.67691622103386,
+      "sd": 0.25626576796028067
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.35358796296296,
+      "sd": 0.9449894616922349
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.35385101010101,
+      "sd": 1.3913493488334296
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.59224598930481,
+      "sd": 0.14015606114634258
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.12511574074072,
+      "sd": 1.1557540209506096
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 57.47411616161615,
+      "sd": 1.7308637923793244
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 87.19251336898395,
+      "sd": 8.110474764776901
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.59166666666667,
+      "sd": 0.9749921959871953
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.46338383838383,
+      "sd": 1.3536954298465453
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.55436720142602,
+      "sd": 0.17227292787794618
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.65856481481481,
+      "sd": 1.760416624391577
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 10.308080808080808,
+      "sd": 1.4703055582713194
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 29.66354723707665,
+      "sd": 24.799933579963735
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.50127314814816,
+      "sd": 0.9257153904805573
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 65.26010101010101,
+      "sd": 2.507421703821418
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 95.13814616755792,
+      "sd": 2.8581707937347307
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.63217592592592,
+      "sd": 1.2890123887266023
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 68.33554292929293,
+      "sd": 1.016016552045134
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.10873440285205,
+      "sd": 0.2961586755403575
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.12951388888888,
+      "sd": 0.8181229408487294
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.5988005050505,
+      "sd": 1.4441373165222007
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.59670231729055,
+      "sd": 0.2059495405747864
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 80.8074074074074,
+      "sd": 1.5197651211526215
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 52.94191919191919,
+      "sd": 2.4019660234330455
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.47103386809269,
+      "sd": 10.021180046707284
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.99166666666666,
+      "sd": 1.1404941961325965
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 72.65467171717172,
+      "sd": 1.2500956498451903
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.86631016042782,
+      "sd": 0.05656397137450993
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.97361111111111,
+      "sd": 1.3418431505918527
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 63.808396464646464,
+      "sd": 0.9906289561624975
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.71256684491979,
+      "sd": 0.14031340732123673
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.46296296296296,
+      "sd": 1.189545197910965
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 72.58364898989899,
+      "sd": 1.5179972413869183
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.65909090909092,
+      "sd": 0.11978324470335168
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.43657407407407,
+      "sd": 0.9758140831658126
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.2964015151515,
+      "sd": 1.8480433473215394
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.63680926916221,
+      "sd": 0.07933571118970117
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.81967592592594,
+      "sd": 1.0248120303963923
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.59122474747475,
+      "sd": 1.1563245336044974
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.62121212121212,
+      "sd": 0.1878952858091735
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.46608796296296,
+      "sd": 1.0886651226091202
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.28977272727272,
+      "sd": 1.9049351122883544
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.64349376114083,
+      "sd": 0.1294978889940743
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 81.35520833333335,
+      "sd": 0.8744147130328235
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.69444444444446,
+      "sd": 1.271560005095159
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.69474153297683,
+      "sd": 0.06971301265749986
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 83.11875,
+      "sd": 0.9429809805440031
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.98263888888887,
+      "sd": 0.9496774908594287
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.67023172905526,
+      "sd": 0.16667434524864402
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.84178240740741,
+      "sd": 0.8527974952954589
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.25820707070707,
+      "sd": 0.8361466430378743
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.63458110516935,
+      "sd": 0.13377233870967956
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.51435185185186,
+      "sd": 1.165135618446871
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.80650252525254,
+      "sd": 1.2420835621473056
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.6457219251337,
+      "sd": 0.11527743299875653
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 82.81979166666667,
+      "sd": 1.0640029292660385
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 71.94444444444444,
+      "sd": 1.1260924781387136
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 99.68582887700535,
+      "sd": 0.08366748375899163
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 78.67764905778799,
+      "sd": 1.1793728846261409
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 44.91099149540068,
+      "sd": 2.1283925142645805
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 85.23832106919365,
+      "sd": 6.357114546753645
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 80.31776891653992,
+      "sd": 0.8572442128627388
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 64.50498356410763,
+      "sd": 1.4853336354325402
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 96.14051709515967,
+      "sd": 3.6574181157797243
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.80816671950537,
+      "sd": 0.4857863973559592
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 63.98011089346137,
+      "sd": 1.4275032358710247
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.66637969543169,
+      "sd": 0.264404594989255
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.9216935004703,
+      "sd": 0.9039142822889614
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 67.84777253398724,
+      "sd": 1.7634734121713476
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.5728600294681,
+      "sd": 0.15467084234213377
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.11466314506328,
+      "sd": 1.0970642060482552
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 52.038774030423895,
+      "sd": 1.8646044396253982
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 89.28931262853725,
+      "sd": 6.70120895629053
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.005776459067,
+      "sd": 0.9250265069886573
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.36272887532596,
+      "sd": 1.2908237942209
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.5294143914711,
+      "sd": 0.1786949357849831
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 78.11456713567057,
+      "sd": 1.7849537956675967
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 3.5573725340068534,
+      "sd": 0.6568131755422614
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 26.022727503798894,
+      "sd": 23.92293714120048
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 77.90366141953876,
+      "sd": 0.9363575405959697
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 60.41401479205492,
+      "sd": 2.8375624795616163
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 94.5132454136847,
+      "sd": 2.0193588060199232
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.0295833240275,
+      "sd": 1.2395766178002097
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 64.60668487094541,
+      "sd": 1.0535913684742317
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.02599365706917,
+      "sd": 0.3127760584646216
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.64021038289027,
+      "sd": 0.8998057814578335
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.1718849185914,
+      "sd": 1.8154273324403905
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.57141256594782,
+      "sd": 0.214224780986846
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.5445664529128,
+      "sd": 1.3058801830554119
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 46.14611142218375,
+      "sd": 2.74816480010557
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.60533310291899,
+      "sd": 9.72048228189147
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.2719802228068,
+      "sd": 0.9986001091899667
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.69392520999887,
+      "sd": 1.4410716006822082
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.83998799231658,
+      "sd": 0.07210917183849848
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.51398414641677,
+      "sd": 1.3369710048010917
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 58.507470740680596,
+      "sd": 1.207803091761715
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.66979009573438,
+      "sd": 0.17447537389629528
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 80.02642986122022,
+      "sd": 1.091423667463108
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 69.63176563295272,
+      "sd": 1.6262895834235105
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.64286653899208,
+      "sd": 0.12187328196189419
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 80.06513522131544,
+      "sd": 1.0211052343088556
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 67.74587295979069,
+      "sd": 2.145439434196719
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.62314963338363,
+      "sd": 0.088561899245167
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.22999325227403,
+      "sd": 0.8690554939500682
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.42537441824896,
+      "sd": 1.0627031699244607
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.59784275038649,
+      "sd": 0.20629275765566926
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 80.00111462232444,
+      "sd": 0.9583976797292738
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 67.81374039431196,
+      "sd": 2.0589198474018855
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.62765219920905,
+      "sd": 0.13079009325108396
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 79.38527231259107,
+      "sd": 0.6936550243257238
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.58818899802375,
+      "sd": 1.378311859882465
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.67844893108324,
+      "sd": 0.07027655606522135
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.56720473083706,
+      "sd": 0.849995148144386
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.6634993036757,
+      "sd": 1.1794688057557452
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.64632857490186,
+      "sd": 0.16965496642554193
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.3332398945411,
+      "sd": 0.7466281947283748
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 67.87066029144688,
+      "sd": 0.9543524262642068
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.61115650969904,
+      "sd": 0.14146989863790926
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 80.96632643123995,
+      "sd": 1.0171665540734705
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.61451210160398,
+      "sd": 1.354510398213311
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.62409392170244,
+      "sd": 0.11496103423096524
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 81.31996190164224,
+      "sd": 0.9704801608062332
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 68.7431127175411,
+      "sd": 1.3332047686870805
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 99.66876597653646,
+      "sd": 0.08693279634854813
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 82.47395833333334,
+      "sd": 1.5448950338159704
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 53.40625,
+      "sd": 2.1773076040784365
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 92.49999999999999,
+      "sd": 4.730385101646222
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.703125,
+      "sd": 1.015009013103871
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 72.5,
+      "sd": 2.0198666072568034
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 98.33333333333333,
+      "sd": 3.5136418446315365
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.19791666666667,
+      "sd": 0.8656215876609703
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 70.25,
+      "sd": 2.0241596335818532
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.57291666666666,
+      "sd": 1.4671525657662798
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 74.625,
+      "sd": 2.247683993210196
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 83.53124999999999,
+      "sd": 2.154709035167989
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 59.0,
+      "sd": 2.1590410680052687
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 94.16666666666666,
+      "sd": 4.02538242949707
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.41666666666667,
+      "sd": 1.0096945204819905
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 76.96875,
+      "sd": 1.5241829550797226
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 84.83854166666666,
+      "sd": 3.229208669081669
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 11.09375,
+      "sd": 1.5746058810240597
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 30.0,
+      "sd": 25.215123817578256
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.00520833333334,
+      "sd": 1.9829778728500633
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 67.71875,
+      "sd": 3.464383512978898
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.6875,
+      "sd": 1.5433236840751083
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 72.875,
+      "sd": 2.1988791336597937
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.51041666666667,
+      "sd": 1.4550226972053466
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 75.6875,
+      "sd": 2.4017137978257663
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.01041666666667,
+      "sd": 1.9566827165093512
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 54.4375,
+      "sd": 1.7103646459811486
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 88.33333333333333,
+      "sd": 8.050764858994128
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.85937500000001,
+      "sd": 1.918862281570176
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 75.5625,
+      "sd": 1.5152580454973485
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.97395833333333,
+      "sd": 2.429246919533876
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 66.15625,
+      "sd": 1.0211521610960392
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.86458333333333,
+      "sd": 1.1156590949073053
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 77.4375,
+      "sd": 2.193938936150128
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.57812500000001,
+      "sd": 1.2444538418854039
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 74.9375,
+      "sd": 2.9492230615310646
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.79166666666667,
+      "sd": 1.112249850500449
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 76.90625,
+      "sd": 1.6367762395432472
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 86.91666666666666,
+      "sd": 1.126146106867289
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 75.46875,
+      "sd": 2.8460575192321356
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.0625,
+      "sd": 0.9852181990256592
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 75.96875,
+      "sd": 2.1471981905367854
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.8125,
+      "sd": 0.8275260616536817
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 76.71875,
+      "sd": 1.7068718341847853
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.71354166666666,
+      "sd": 0.7911982349517367
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 76.0625,
+      "sd": 0.9682458365518543
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.80729166666667,
+      "sd": 0.9453280435667326
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 75.6875,
+      "sd": 1.5852510316455668
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "pu_clock4",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 87.67708333333334,
+      "sd": 1.0939428842268792
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "phm09_w3",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 75.53125,
+      "sd": 1.9322846473367565
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 80.6263888888889,
+      "sd": 1.3823049751672203
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 50.97316919191919,
+      "sd": 2.1720505685691247
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 83.94162210338679,
+      "sd": 7.420905298096393
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.84918981481482,
+      "sd": 0.8468061086703904
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 65.20265151515152,
+      "sd": 1.4032604450350232
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 95.03342245989305,
+      "sd": 5.110154312382645
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 80.88796296296297,
+      "sd": 0.3646712203821478
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 67.05050505050505,
+      "sd": 1.999987201874393
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.04188948306594,
+      "sd": 1.0434111306497922
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.41840277777779,
+      "sd": 0.9134910012949884
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.81565656565657,
+      "sd": 1.522105429699883
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.69251336898397,
+      "sd": 0.17124519057581672
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.12511574074072,
+      "sd": 1.1557540209506096
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 55.760101010101,
+      "sd": 1.2612452113186763
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 86.70677361853834,
+      "sd": 7.995947578801997
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.57986111111111,
+      "sd": 0.9864209421202177
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.57449494949495,
+      "sd": 1.370068123668449
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.6902852049911,
+      "sd": 0.16820629563497194
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 80.79780092592593,
+      "sd": 1.5629197586221943
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 11.819444444444446,
+      "sd": 0.7926091038246552
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 53.498217468805706,
+      "sd": 28.65513225432489
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 80.52060185185185,
+      "sd": 1.3600222489511407
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 60.78598484848485,
+      "sd": 3.53668699549731
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 95.69964349376114,
+      "sd": 4.056931285437235
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.21099537037038,
+      "sd": 1.1735639375041274
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 67.48074494949495,
+      "sd": 0.8371764515201616
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.25356506238859,
+      "sd": 0.29806176003893664
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.14837962962963,
+      "sd": 0.7803714577088002
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.68055555555554,
+      "sd": 1.1889788370289844
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.70588235294119,
+      "sd": 0.10854917353799952
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 80.85439814814815,
+      "sd": 2.269225240549896
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 52.491792929292934,
+      "sd": 2.2965220737519494
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 79.40730837789661,
+      "sd": 9.55039595784912
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 83.03726851851852,
+      "sd": 1.0381585015409522
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.96969696969697,
+      "sd": 1.1402005696201063
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.87967914438502,
+      "sd": 0.062317816290564876
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.94733796296296,
+      "sd": 1.02415133194138
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 63.35353535353536,
+      "sd": 0.9320136288689724
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.674688057041,
+      "sd": 0.16211073447127788
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.53078703703704,
+      "sd": 1.0847164480683216
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 72.94728535353536,
+      "sd": 0.9231538628757031
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.68582887700533,
+      "sd": 0.0887854931804447
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.37500000000001,
+      "sd": 0.9204735945583798
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.39962121212122,
+      "sd": 1.4975139896308503
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.71702317290554,
+      "sd": 0.11839360086756642
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.68310185185184,
+      "sd": 1.0127153584842379
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.78724747474747,
+      "sd": 1.0730010231377403
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.69696969696969,
+      "sd": 0.10194509766353575
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.49317129629631,
+      "sd": 1.1647716399684733
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.38636363636364,
+      "sd": 1.4640702175848896
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.70811051693404,
+      "sd": 0.10579543303962499
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 81.58668981481483,
+      "sd": 1.3519716886343505
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 72.99621212121211,
+      "sd": 1.5468873735347264
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.75267379679144,
+      "sd": 0.08690156968674043
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 83.00162037037038,
+      "sd": 1.0527402374310901
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.58301767676768,
+      "sd": 1.2226840707362285
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.74376114081997,
+      "sd": 0.06496158528125681
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.82129629629628,
+      "sd": 0.8577138073107418
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 70.9185606060606,
+      "sd": 0.9256353328053091
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.69251336898397,
+      "sd": 0.11874253649263772
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.48564814814816,
+      "sd": 1.3745343601968212
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 71.97095959595961,
+      "sd": 1.4896271497236486
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.6813725490196,
+      "sd": 0.1018638988472592
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 82.83587962962963,
+      "sd": 1.2667697969441543
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 72.1751893939394,
+      "sd": 1.167971427107251
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 99.71256684491978,
+      "sd": 0.07386250677629856
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 78.67764905778799,
+      "sd": 1.1793728846261409
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 44.44811955144317,
+      "sd": 2.462461574262319
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 84.72782280458847,
+      "sd": 5.799568491301047
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 80.31776891653992,
+      "sd": 0.8572442128627388
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 61.20923329656258,
+      "sd": 1.6565309233219616
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 95.73111300254155,
+      "sd": 3.7675528322393297
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.83250762492123,
+      "sd": 0.4211849622776391
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 63.42727306361096,
+      "sd": 1.9782416528581166
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.04675177952701,
+      "sd": 0.9776618028588238
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.94154534864569,
+      "sd": 0.785550465439704
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.08921096660752,
+      "sd": 1.766948535820779
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.68084166080561,
+      "sd": 0.17205077442585917
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.11466314506328,
+      "sd": 1.0970642060482552
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 50.04003404823027,
+      "sd": 1.296334104215966
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 88.38855946568565,
+      "sd": 6.8006187223511345
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 81.01329587226857,
+      "sd": 0.9675850048081501
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.28120514072603,
+      "sd": 1.3625665740277004
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.673917789819,
+      "sd": 0.17536122072275684
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 78.34290201563648,
+      "sd": 1.7405777031290792
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 2.8231549350086156,
+      "sd": 0.2876549871317035
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 47.40827574950892,
+      "sd": 27.538209476785372
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 77.87355018318303,
+      "sd": 1.4965414883217254
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 55.25833524047905,
+      "sd": 4.015334095001005
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 95.5877598607207,
+      "sd": 3.1015922505099374
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.53031001841224,
+      "sd": 1.066321940937906
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 63.381848976170694,
+      "sd": 0.8786554528156167
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.2011096840565,
+      "sd": 0.3121308863910112
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.68074272510498,
+      "sd": 0.8466034052685202
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.01189141715903,
+      "sd": 1.3300892229708166
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.6877873866091,
+      "sd": 0.1116029052854522
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.41124198146098,
+      "sd": 1.9224000239782164
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 45.55691419267482,
+      "sd": 2.905949382969558
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 76.58097697696353,
+      "sd": 8.472910341519398
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 81.32367750433619,
+      "sd": 0.8132781922059789
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.0027994787794,
+      "sd": 1.3077685750982546
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.85905066861213,
+      "sd": 0.07505647953071005
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 81.3907708933426,
+      "sd": 1.042013152926447
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 57.94351802664634,
+      "sd": 1.1452416166695394
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.62344907992764,
+      "sd": 0.20332413960745688
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 80.06985231158203,
+      "sd": 1.0364441562698696
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 69.64281691689334,
+      "sd": 1.0939965949434136
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.66950559236324,
+      "sd": 0.09015039724874567
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 80.0088712077179,
+      "sd": 0.9650572432284067
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 67.68063479930456,
+      "sd": 1.7682947054051015
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.70903618371207,
+      "sd": 0.1194566378990805
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 81.10510905484782,
+      "sd": 0.8162883256220755
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.45226573941419,
+      "sd": 1.1689267907537764
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.67984995505469,
+      "sd": 0.10435688471599344
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.99317708448606,
+      "sd": 1.0610673348559234
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 67.63736806377258,
+      "sd": 1.6016128206716886
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.69283780464296,
+      "sd": 0.1029139171678176
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 79.54802589528207,
+      "sd": 1.2086786024696876
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 69.63770793098368,
+      "sd": 1.7787595667898366
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.73965891784442,
+      "sd": 0.08567032453013963
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 81.43728437104002,
+      "sd": 0.9348154739012893
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.05852572813167,
+      "sd": 1.5368785537006522
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.72854634496449,
+      "sd": 0.06488557207451957
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 81.28416804848501,
+      "sd": 0.7596235005222934
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 67.24411690581596,
+      "sd": 1.240983009157831
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.67376801847581,
+      "sd": 0.11873570375830242
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 80.9158505082755,
+      "sd": 1.2323469417109394
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.56366729801272,
+      "sd": 1.6849784560865277
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.66815866399955,
+      "sd": 0.10347812672311589
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 81.30620334972582,
+      "sd": 1.1825487842854505
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 68.8400946986546,
+      "sd": 1.300722865982732
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 99.69775237087745,
+      "sd": 0.074294379580108
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 82.47395833333334,
+      "sd": 1.5448950338159704
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 53.25,
+      "sd": 2.1610504133149893
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A0_AUTHOR_CE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 92.49999999999999,
+      "sd": 4.730385101646221
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.703125,
+      "sd": 1.015009013103871
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 69.1875,
+      "sd": 2.2973414586817036
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/A2_AUTHOR_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 97.49999999999999,
+      "sd": 4.02538242949707
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.265625,
+      "sd": 0.7353614172405677
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 69.15625,
+      "sd": 2.6354372528840235
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B0_ID_MIX",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.40104166666666,
+      "sd": 1.1961414987173171
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 75.21875,
+      "sd": 2.1299472639533175
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/B1_IN_MIX",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 83.53124999999999,
+      "sd": 2.154709035167989
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 57.71875,
+      "sd": 1.7371177637109128
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/C0_CCDG_CODE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 94.16666666666666,
+      "sd": 4.02538242949707
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.27083333333334,
+      "sd": 1.158963074886607
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 76.46875,
+      "sd": 1.6539226310334
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/E0_EVENTS",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 84.59895833333333,
+      "sd": 3.6995097963663355
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 11.875,
+      "sd": 0.919975090242484
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M0_MOCD_EQ_LITERAL",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 52.5,
+      "sd": 25.169180644609547
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 85.67187499999999,
+      "sd": 1.3154292892025716
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 62.375,
+      "sd": 4.221514012242001
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/M1_MOCD_PROSE_STOPGRAD",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.99479166666666,
+      "sd": 1.1744249520418064
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 71.65625,
+      "sd": 1.600577695188001
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/N0_WARP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.45833333333334,
+      "sd": 1.5934435979977477
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 75.25,
+      "sd": 1.340475661845451
+    },
+    {
+      "family": "MDG",
+      "recipe": "archived/S0_INTACT",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.97395833333333,
+      "sd": 2.2976366367603327
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 53.90625,
+      "sd": 2.321070828662208
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DANN_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.5,
+      "sd": 7.08197154665664
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.76562499999999,
+      "sd": 1.664214414108512
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 75.25,
+      "sd": 1.3645435744844012
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.73437500000001,
+      "sd": 1.6349060744579167
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 65.46875,
+      "sd": 0.8494534599114647
+    },
+    {
+      "family": "MDG",
+      "recipe": "baseline/ERM_TABLE3_IN_CE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.88020833333333,
+      "sd": 1.1169146395827223
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 77.15625,
+      "sd": 1.6167659978075573
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_IMPULSE_ONLY",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.73437500000001,
+      "sd": 1.1450570813376995
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 74.375,
+      "sd": 1.538002402107646
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.65104166666667,
+      "sd": 1.0237021527807908
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 76.15625,
+      "sd": 1.7863900011226863
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/A1_MATCHED_E0",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 86.85416666666666,
+      "sd": 1.0955947846255807
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 74.78125,
+      "sd": 2.5218231527783406
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/F0_UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.140625,
+      "sd": 1.1470032957977874
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 76.8125,
+      "sd": 2.242851297889462
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/M0_GLOBAL_AFFINE_MOMENTS",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.70833333333334,
+      "sd": 0.7579472205883038
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 75.21875,
+      "sd": 1.5801091075196885
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.58854166666666,
+      "sd": 0.7495698676553886
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 75.03125,
+      "sd": 0.7994409939312456
+    },
+    {
+      "family": "MDG",
+      "recipe": "current/Q2_FIXED_IMPULSE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.671875,
+      "sd": 1.002760103914735
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 75.96875,
+      "sd": 2.1971513280457797
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/M0_EXPECTED_ENERGY_SHRINK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "pu_clock4",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 87.50000000000001,
+      "sd": 1.0654122217059923
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "phm09_w3",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 76.40625,
+      "sd": 1.994186429070484
+    },
+    {
+      "family": "MDG",
+      "recipe": "exposure/T0_HALF_EXPOSURE",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 100.0,
+      "sd": 0.0
+    },
+    {
+      "family": "SDG",
+      "recipe": "IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 94.948752228164,
+      "sd": 1.0515764300101207
+    },
+    {
+      "family": "SDG",
+      "recipe": "IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 94.71511460014393,
+      "sd": 0.897249473866594
+    },
+    {
+      "family": "SDG",
+      "recipe": "IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 99.16666666666667,
+      "sd": 1.756820922315762
+    },
+    {
+      "family": "SDG",
+      "recipe": "UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 95.6060606060606,
+      "sd": 0.7198115496771773
+    },
+    {
+      "family": "SDG",
+      "recipe": "UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 95.31943289992562,
+      "sd": 0.6527298017466562
+    },
+    {
+      "family": "SDG",
+      "recipe": "UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 99.58333333333334,
+      "sd": 1.3176156917368218
+    },
+    {
+      "family": "SDG",
+      "recipe": "Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "acc",
+      "mean": 95.7174688057041,
+      "sd": 0.7395058142232683
+    },
+    {
+      "family": "SDG",
+      "recipe": "Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "macro_f1",
+      "mean": 95.43788407492717,
+      "sd": 0.6318731814298318
+    },
+    {
+      "family": "SDG",
+      "recipe": "Q2",
+      "protocol": "jnu_speed",
+      "policy": "last",
+      "metric": "recording_ba",
+      "mean": 99.16666666666667,
+      "sd": 1.7568209223157623
+    },
+    {
+      "family": "SDG",
+      "recipe": "IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 95.2840909090909,
+      "sd": 0.8962657141436043
+    },
+    {
+      "family": "SDG",
+      "recipe": "IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 94.89209884343096,
+      "sd": 0.7413438688117985
+    },
+    {
+      "family": "SDG",
+      "recipe": "IN_MIXUP",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 97.91666666666667,
+      "sd": 2.196026152894703
+    },
+    {
+      "family": "SDG",
+      "recipe": "UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 94.77606951871658,
+      "sd": 1.535498440374296
+    },
+    {
+      "family": "SDG",
+      "recipe": "UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 94.51817736757133,
+      "sd": 1.2528938280355417
+    },
+    {
+      "family": "SDG",
+      "recipe": "UNEDITED_BANK",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 98.33333333333334,
+      "sd": 2.151657414559671
+    },
+    {
+      "family": "SDG",
+      "recipe": "Q2",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "acc",
+      "mean": 95.22058823529412,
+      "sd": 1.1065800099954928
+    },
+    {
+      "family": "SDG",
+      "recipe": "Q2",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "macro_f1",
+      "mean": 94.85279915159964,
+      "sd": 0.9119825496988608
+    },
+    {
+      "family": "SDG",
+      "recipe": "Q2",
+      "protocol": "jnu_speed",
+      "policy": "selected",
+      "metric": "recording_ba",
+      "mean": 98.75000000000001,
+      "sd": 2.0126912147485285
+    }
+  ],
+  "engineering_errors": [
+    {
+      "recipe": "current/A0_STRONG_IN_MIXUP",
+      "false_alarm": {
+        "mean": 3.6875,
+        "sd": 2.3652944965808285,
+        "per_seed": [
+          3.125,
+          2.5,
+          3.125,
+          2.5,
+          2.5,
+          6.25,
+          3.75,
+          9.375,
+          1.875,
+          1.875
+        ]
+      },
+      "miss_fault": {
+        "mean": 10.4140625,
+        "sd": 1.786864476427369,
+        "per_seed": [
+          12.109375,
+          12.03125,
+          8.984375,
+          7.96875,
+          8.59375,
+          12.1875,
+          11.953125,
+          8.203125,
+          10.46875,
+          11.640625
+        ]
+      },
+      "io_confusion": {
+        "mean": 7.875,
+        "sd": 0.8420765297432559,
+        "per_seed": [
+          7.03125,
+          7.890625,
+          8.28125,
+          7.109375,
+          8.984375,
+          6.5625,
+          8.515625,
+          9.0625,
+          7.8125,
+          7.5
+        ]
+      }
+    },
+    {
+      "recipe": "current/F0_UNEDITED_BANK",
+      "false_alarm": {
+        "mean": 3.6875,
+        "sd": 2.2525063201292514,
+        "per_seed": [
+          3.125,
+          1.25,
+          3.75,
+          3.125,
+          1.875,
+          6.25,
+          3.75,
+          8.75,
+          1.875,
+          3.125
+        ]
+      },
+      "miss_fault": {
+        "mean": 10.375,
+        "sd": 1.3793727816777208,
+        "per_seed": [
+          10.78125,
+          12.03125,
+          9.140625,
+          9.375,
+          8.75,
+          12.109375,
+          10.3125,
+          9.375,
+          9.453125,
+          12.421875
+        ]
+      },
+      "io_confusion": {
+        "mean": 7.40625,
+        "sd": 0.8760224680813463,
+        "per_seed": [
+          6.953125,
+          6.953125,
+          8.359375,
+          5.625,
+          8.515625,
+          6.640625,
+          7.734375,
+          7.5,
+          7.96875,
+          7.8125
+        ]
+      }
+    },
+    {
+      "recipe": "current/Q2",
+      "false_alarm": {
+        "mean": 3.1875,
+        "sd": 1.5152580454973485,
+        "per_seed": [
+          3.125,
+          1.875,
+          3.75,
+          3.125,
+          1.25,
+          5.625,
+          4.375,
+          5.0,
+          1.25,
+          2.5
+        ]
+      },
+      "miss_fault": {
+        "mean": 9.1171875,
+        "sd": 1.0591309432901685,
+        "per_seed": [
+          10.3125,
+          9.609375,
+          9.453125,
+          7.96875,
+          8.125,
+          9.375,
+          8.125,
+          8.59375,
+          8.4375,
+          11.171875
+        ]
+      },
+      "io_confusion": {
+        "mean": 7.5703125,
+        "sd": 0.7126572225412985,
+        "per_seed": [
+          6.40625,
+          8.203125,
+          7.421875,
+          6.796875,
+          7.578125,
+          6.875,
+          7.8125,
+          7.890625,
+          8.75,
+          7.96875
+        ]
+      }
+    },
+    {
+      "recipe": "baseline/DCORAL_SOURCE_ONLY",
+      "false_alarm": {
+        "mean": 6.625,
+        "sd": 4.779876799899996,
+        "per_seed": [
+          12.5,
+          1.25,
+          10.625,
+          13.125,
+          5.625,
+          3.75,
+          0.625,
+          11.25,
+          4.375,
+          3.125
+        ]
+      },
+      "miss_fault": {
+        "mean": 8.4296875,
+        "sd": 1.6492621522066735,
+        "per_seed": [
+          9.21875,
+          8.828125,
+          10.46875,
+          7.34375,
+          6.015625,
+          8.59375,
+          7.265625,
+          6.25,
+          9.6875,
+          10.625
+        ]
+      },
+      "io_confusion": {
+        "mean": 7.96875,
+        "sd": 1.7226911883897111,
+        "per_seed": [
+          7.8125,
+          6.875,
+          7.265625,
+          7.265625,
+          6.171875,
+          10.0,
+          10.3125,
+          6.640625,
+          10.78125,
+          6.5625
+        ]
+      }
+    }
+  ],
+  "new_training": 0,
+  "new_model_or_signal_reads": 0,
+  "new_predictions": 0
+}

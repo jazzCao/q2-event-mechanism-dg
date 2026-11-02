@@ -1,0 +1,200 @@
+[
+  {
+    "source": "scripts/50_bearing_cnsr/continuous_event_core.py",
+    "definition": "render",
+    "start": 4,
+    "end": 29,
+    "source_sha256": "d270617cf81563832711b27f9b3664339ba6c8dfec7c37dcf26d6f0806ec2c24",
+    "definition_sha256": "08991e52ef3508a53748dcfe3053da74b9478569a9a87d842b0276615027881e",
+    "ast_sha256": "6b1d5dd527d6f2d135a9ebe3cf0b25236cc37eda4608caf46ae13ac14685b09a"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/continuous_event_core.py",
+    "definition": "reference_interval",
+    "start": 32,
+    "end": 39,
+    "source_sha256": "d270617cf81563832711b27f9b3664339ba6c8dfec7c37dcf26d6f0806ec2c24",
+    "definition_sha256": "edc80243c26040f879c87c6a2c587e04f5beed881916f5429ef2a80b2a55b3b7",
+    "ast_sha256": "dbb482e741e948ae1f373eb7f4e8758c459874ec374fd26d4302e63987eaf1ba"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/continuous_event_core_v2.py",
+    "definition": "render",
+    "start": 6,
+    "end": 17,
+    "source_sha256": "1bc2a3363daa65870cb3b1b82a7f20d8c2241f7e04c93ee8b39a10c60721f17b",
+    "definition_sha256": "e12c026cff4667759b695228ea439505bfcb12631f6f44281e11e83645fa63ba",
+    "ast_sha256": "a939246bd40af2526d15d155b94896cb139899272f5d45c191c775e2f20613de"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/continuous_event_core_v2.py",
+    "definition": "reference_interval",
+    "start": 20,
+    "end": 24,
+    "source_sha256": "1bc2a3363daa65870cb3b1b82a7f20d8c2241f7e04c93ee8b39a10c60721f17b",
+    "definition_sha256": "b697f64340bc5e70fa4082a0e8bad1d90a707f2e4f2a6bbe696d9413d2ac248b",
+    "ast_sha256": "3e7cc90704052dc5d9b678573565e85b64d792321c101354f432b4a3cbd58ab7"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/clock_real_data.py",
+    "definition": "spectrum",
+    "start": 42,
+    "end": 45,
+    "source_sha256": "a97a73b9924ea5b7e2ad23cb4edebf009ab1051bec994f21e9c6b69b700da686",
+    "definition_sha256": "aa048bc2ab393e7a9c08f91369d4871dc2ae32858ff9b4421c4d469c6a56f028",
+    "ast_sha256": "6ce32431cf95316b60aa304d13d67c14319348278e2d0299f07f7666e0dc1c20"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/shared_clock_core.py",
+    "definition": "harmonic_basis",
+    "start": 18,
+    "end": 26,
+    "source_sha256": "d8a37a188ed1c3ea1b5885bfc77a6aba9fc4235282f9b9a36ed96976ac55faf6",
+    "definition_sha256": "bf7c2ff155240333ee5e269f7f0f1d5011a083a0d2f11278fb9221349f500dc7",
+    "ast_sha256": "9869d37ddb8ff385f8ddf556be905cf0f1acb0a70e7a5be1076605924c7c41e8"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/shared_clock_core.py",
+    "definition": "stationary_candidates",
+    "start": 29,
+    "end": 56,
+    "source_sha256": "d8a37a188ed1c3ea1b5885bfc77a6aba9fc4235282f9b9a36ed96976ac55faf6",
+    "definition_sha256": "23b11aa44d0072f6d359fe38a4fb6be34a0b4c9473eda6d4b0e03ef28f9d0dc5",
+    "ast_sha256": "aecf4667e04dc8e708801d8a9881137802cefd177ca0ee257a763e7d90ff0b99"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/shared_clock_core.py",
+    "definition": "group_prox",
+    "start": 85,
+    "end": 89,
+    "source_sha256": "d8a37a188ed1c3ea1b5885bfc77a6aba9fc4235282f9b9a36ed96976ac55faf6",
+    "definition_sha256": "8554a0e4becb5824d36189b398b88595ef991014ff3c05f913c555bcc0722203",
+    "ast_sha256": "456a77d58fc035d68bcfe9ed011b71eb91567becd376c1f4314a09134a20d08d"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/clock_real_core.py",
+    "definition": "kernel",
+    "start": 11,
+    "end": 19,
+    "source_sha256": "b90a9eedd7158fa541f3e8254ed8508fa5f1d3fffafe645d79e6b21f1b5a4484",
+    "definition_sha256": "0b0f642238a6e636b6b9794d10f5e14e71c88992ac40fc4411d65f246735b29a",
+    "ast_sha256": "31d17a9d816e920a0c7467d3d856bc0a29e885074b7cc575c82f6c0e4e7b7f4f"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/clock_real_core.py",
+    "definition": "design",
+    "start": 22,
+    "end": 56,
+    "source_sha256": "b90a9eedd7158fa541f3e8254ed8508fa5f1d3fffafe645d79e6b21f1b5a4484",
+    "definition_sha256": "ba6e643407200762d43fc0ed897e7fdb99fa4fb52d2364803aa75b03ab8711a4",
+    "ast_sha256": "046c752c0cca089056fd6c8f21b776ca8009c871a66fd20466ecdccdabeb87eb"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/clock_real_core.py",
+    "definition": "fit_cpu",
+    "start": 59,
+    "end": 73,
+    "source_sha256": "b90a9eedd7158fa541f3e8254ed8508fa5f1d3fffafe645d79e6b21f1b5a4484",
+    "definition_sha256": "7b123f0c9b0771b00d050ee25bcdd0a5fafa734394ab7f2b53899feb7e6b84df",
+    "ast_sha256": "cb7341af48762c74780fb5d0461240601a8644542b5347c0a6de85d065283064"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/wfdg/mocd_model.py",
+    "definition": "EncoderGTable3",
+    "start": 16,
+    "end": 44,
+    "source_sha256": "30d9ef914737a2931735720097c01c6e05385223a53233fe1aea49636a3c02e6",
+    "definition_sha256": "f528aa870fb03eb7a3efde4bd9139596da9dc9c8371e9ede0292216d4a609ab9",
+    "ast_sha256": "d58612ac4227a05726dbcf6c720c9f28fab98f608014852c810827cba920dc11"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/wfdg/mocd_model.py",
+    "definition": "ClfHead",
+    "start": 85,
+    "end": 94,
+    "source_sha256": "30d9ef914737a2931735720097c01c6e05385223a53233fe1aea49636a3c02e6",
+    "definition_sha256": "699dca6a79ea9f398739a6c50246d92c86917a239cc571fbc28209ad936ba810",
+    "ast_sha256": "667cc65677eba2b29e6bb682ef02f6d04798e5ac059f8dfaf78364a7cc1f435c"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/clock_real_model.py",
+    "definition": "Net",
+    "start": 9,
+    "end": 21,
+    "source_sha256": "c5013ffd6ffca979d5d87ea51620f55e06ffd8dbdc643dac1d9a86ad8c0d9a48",
+    "definition_sha256": "020166666462e06146a69088f166af4cf251ac3f243ece1ea61d62aa293c360d",
+    "ast_sha256": "15fef195fef0f3e70f271beffa4d36eaecafa81604a0c6cff72b7c68894d8c6a"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/rate_impulse_screen_neural.py",
+    "definition": "draw_batch",
+    "start": 10,
+    "end": 21,
+    "source_sha256": "1445be19ac0aef2a7bdf07a933923c555671707f633faacbca511839cf4351a1",
+    "definition_sha256": "16c3ec652d2455d6c590bc61418e793471696916201c2f5e592ea496a2b53e04",
+    "ast_sha256": "94657f311738c9cf7601eb5bfab289ff4103126c2f9df34893fc2f4b34d1debc"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/source_rate_core.py",
+    "definition": "shared_edit_mask",
+    "start": 8,
+    "end": 12,
+    "source_sha256": "59cbe65459a40f6403b7a7acf59f770bbd7cb3cd3c3a563a077fe8e1758b00db",
+    "definition_sha256": "6dcd47eee96cf68c920755a72934ef27da380923dec0d3b16fbf94ceb71450b2",
+    "ast_sha256": "4f8e81115ab7a52f391002606df502d83d098a9f0179bd477a1a5d5be26a65e1"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/source_rate_neural.py",
+    "definition": "initial_seed",
+    "start": 59,
+    "end": 61,
+    "source_sha256": "31b4d822692fa9e96e85c60a0749ba832f3e9c3a30e7719e4cd06abb65a1ff52",
+    "definition_sha256": "5df51aa505e320225a617dcb2ae12706021ac1479746e573573178896c53bd3d",
+    "ast_sha256": "934acb121e6e39cb3acf0b178f8ad84752257db1eb7c304a6c169dee4bbde7c4"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/compatible_set_core.py",
+    "definition": "risk_loss",
+    "start": 24,
+    "end": 33,
+    "source_sha256": "cf00333044bab107d217a3ca02a91d8afa5103627be34f3f5535d15539af3b3a",
+    "definition_sha256": "f95b7234a9b8a4397555186bad18f59662417e939b21099b794bb30f113d524d",
+    "ast_sha256": "53370294a913e93141030ef0aee1596ddf138457a86c9a45147b63ac80fa5141"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/event_component_core.py",
+    "definition": "need",
+    "start": 5,
+    "end": 6,
+    "source_sha256": "277cf5a0f3a240bcd8b9ad411706e18b731b1e0dfff9afcd4fe3295119fb4b0b",
+    "definition_sha256": "3d9959afaf2313282d3a92a403f1e625d7993971c2d334935b4a9b29221fbfed",
+    "ast_sha256": "1312b45778a9b3dba67779d97c6df0d1e02eb95eca24840ff8ff914fdfdd91bb"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/event_component_core.py",
+    "definition": "impulse_only",
+    "start": 9,
+    "end": 16,
+    "source_sha256": "277cf5a0f3a240bcd8b9ad411706e18b731b1e0dfff9afcd4fe3295119fb4b0b",
+    "definition_sha256": "b167bf6ec9489bf8ee423e19f82b4dee2c2640329d5a2a03533e62ffaf7887bd",
+    "ast_sha256": "60cccadc55f1e7af822485648929f457f5219e8f4360ad9a7fc22084ea6ddde0"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/event_component_core.py",
+    "definition": "global_affine_moments",
+    "start": 19,
+    "end": 40,
+    "source_sha256": "277cf5a0f3a240bcd8b9ad411706e18b731b1e0dfff9afcd4fe3295119fb4b0b",
+    "definition_sha256": "020090460d9ff03891238424f5c408f3b8687e9fe37d3319eec3d91f77515124",
+    "ast_sha256": "d72dd2d96d56fd8d1e9e949c2da1b8e1e5ceeb63cc5d745f035975b4b3fdaea0"
+  },
+  {
+    "source": "scripts/50_bearing_cnsr/event_component_core.py",
+    "definition": "factorial",
+    "start": 43,
+    "end": 46,
+    "source_sha256": "277cf5a0f3a240bcd8b9ad411706e18b731b1e0dfff9afcd4fe3295119fb4b0b",
+    "definition_sha256": "ebaa72a63a55637d9df016d6adcebaa0804efbbd6e2b92d2af37c7222cc0103f",
+    "ast_sha256": "eebba84eda29f82855a1d01d868a4436d4702da6413b9ebb63454e9e0176496f"
+  }
+]

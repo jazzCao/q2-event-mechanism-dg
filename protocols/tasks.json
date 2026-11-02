@@ -1,0 +1,303 @@
+{
+  "pu_clock4/BCDtoA": {
+    "protocol": "pu_clock4",
+    "fold": "BCDtoA",
+    "sources": [
+      "B",
+      "C",
+      "D"
+    ],
+    "target": "A",
+    "classes": 3,
+    "window": 5120
+  },
+  "pu_clock4/ACDtoB": {
+    "protocol": "pu_clock4",
+    "fold": "ACDtoB",
+    "sources": [
+      "A",
+      "C",
+      "D"
+    ],
+    "target": "B",
+    "classes": 3,
+    "window": 5120
+  },
+  "pu_clock4/ABDtoC": {
+    "protocol": "pu_clock4",
+    "fold": "ABDtoC",
+    "sources": [
+      "A",
+      "B",
+      "D"
+    ],
+    "target": "C",
+    "classes": 3,
+    "window": 5120
+  },
+  "pu_clock4/ABCtoD": {
+    "protocol": "pu_clock4",
+    "fold": "ABCtoD",
+    "sources": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target": "D",
+    "classes": 3,
+    "window": 5120
+  },
+  "phm09_w3/adj_FH_G": {
+    "protocol": "phm09_w3",
+    "fold": "adj_FH_G",
+    "sources": [
+      "F",
+      "H"
+    ],
+    "target": "G",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_BC_A": {
+    "protocol": "phm09_w3",
+    "fold": "adj_BC_A",
+    "sources": [
+      "B",
+      "C"
+    ],
+    "target": "A",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_AB_J": {
+    "protocol": "phm09_w3",
+    "fold": "ext_AB_J",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "target": "J",
+    "classes": 8,
+    "window": 5333
+  },
+  "jnu_speed/A": {
+    "protocol": "jnu_speed",
+    "fold": "A",
+    "sources": [
+      "B",
+      "C"
+    ],
+    "target": "A",
+    "classes": 4,
+    "window": 4000
+  },
+  "jnu_speed/B": {
+    "protocol": "jnu_speed",
+    "fold": "B",
+    "sources": [
+      "A",
+      "C"
+    ],
+    "target": "B",
+    "classes": 4,
+    "window": 4000
+  },
+  "jnu_speed/C": {
+    "protocol": "jnu_speed",
+    "fold": "C",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "target": "C",
+    "classes": 4,
+    "window": 4000
+  },
+  "phm09_w3/ext_IJ_A": {
+    "protocol": "phm09_w3",
+    "fold": "ext_IJ_A",
+    "sources": [
+      "I",
+      "J"
+    ],
+    "target": "A",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_AC_B": {
+    "protocol": "phm09_w3",
+    "fold": "adj_AC_B",
+    "sources": [
+      "A",
+      "C"
+    ],
+    "target": "B",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_IJ_B": {
+    "protocol": "phm09_w3",
+    "fold": "ext_IJ_B",
+    "sources": [
+      "I",
+      "J"
+    ],
+    "target": "B",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_BD_C": {
+    "protocol": "phm09_w3",
+    "fold": "adj_BD_C",
+    "sources": [
+      "B",
+      "D"
+    ],
+    "target": "C",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_IJ_C": {
+    "protocol": "phm09_w3",
+    "fold": "ext_IJ_C",
+    "sources": [
+      "I",
+      "J"
+    ],
+    "target": "C",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_CE_D": {
+    "protocol": "phm09_w3",
+    "fold": "adj_CE_D",
+    "sources": [
+      "C",
+      "E"
+    ],
+    "target": "D",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_IJ_D": {
+    "protocol": "phm09_w3",
+    "fold": "ext_IJ_D",
+    "sources": [
+      "I",
+      "J"
+    ],
+    "target": "D",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_DF_E": {
+    "protocol": "phm09_w3",
+    "fold": "adj_DF_E",
+    "sources": [
+      "D",
+      "F"
+    ],
+    "target": "E",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_IJ_E": {
+    "protocol": "phm09_w3",
+    "fold": "ext_IJ_E",
+    "sources": [
+      "I",
+      "J"
+    ],
+    "target": "E",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_EG_F": {
+    "protocol": "phm09_w3",
+    "fold": "adj_EG_F",
+    "sources": [
+      "E",
+      "G"
+    ],
+    "target": "F",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_AB_F": {
+    "protocol": "phm09_w3",
+    "fold": "ext_AB_F",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "target": "F",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_AB_G": {
+    "protocol": "phm09_w3",
+    "fold": "ext_AB_G",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "target": "G",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_GI_H": {
+    "protocol": "phm09_w3",
+    "fold": "adj_GI_H",
+    "sources": [
+      "G",
+      "I"
+    ],
+    "target": "H",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_AB_H": {
+    "protocol": "phm09_w3",
+    "fold": "ext_AB_H",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "target": "H",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_HJ_I": {
+    "protocol": "phm09_w3",
+    "fold": "adj_HJ_I",
+    "sources": [
+      "H",
+      "J"
+    ],
+    "target": "I",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/ext_AB_I": {
+    "protocol": "phm09_w3",
+    "fold": "ext_AB_I",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "target": "I",
+    "classes": 8,
+    "window": 5333
+  },
+  "phm09_w3/adj_HI_J": {
+    "protocol": "phm09_w3",
+    "fold": "adj_HI_J",
+    "sources": [
+      "H",
+      "I"
+    ],
+    "target": "J",
+    "classes": 8,
+    "window": 5333
+  }
+}

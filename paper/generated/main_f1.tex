@@ -1,0 +1,19 @@
+\begin{table}[pos=htbp]
+\centering\small
+\caption{Window macro-F1 and recording balanced accuracy (BA), in percent, over ten runs.}
+\label{tab:f1}
+\begin{tabular}{llrrr}
+\toprule
+Metric & Method & PU & PHM09 & JNU\\
+\midrule
+Macro-F1 & ERM & $81.51\pm1.34$ & $58.51\pm1.21$ & $99.67\pm0.17$\\
+Macro-F1 & Deep CORAL & $81.27\pm1.00$ & $68.69\pm1.44$ & $99.84\pm0.07$\\
+Macro-F1 & Matched IN+Mixup & $80.07\pm1.02$ & $67.75\pm2.15$ & $99.62\pm0.09$\\
+Macro-F1 & Proposed Q2 & $81.57\pm0.85$ & $68.66\pm1.18$ & $99.65\pm0.17$\\
+Recording BA & ERM & $86.97\pm2.43$ & $66.16\pm1.02$ & $100.00\pm0.00$\\
+Recording BA & Deep CORAL & $86.86\pm1.92$ & $75.56\pm1.52$ & $100.00\pm0.00$\\
+Recording BA & Matched IN+Mixup & $86.58\pm1.24$ & $74.94\pm2.95$ & $100.00\pm0.00$\\
+Recording BA & Proposed Q2 & $87.81\pm0.83$ & $76.72\pm1.71$ & $100.00\pm0.00$\\
+\bottomrule
+\end{tabular}
+\end{table}

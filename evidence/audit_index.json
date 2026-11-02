@@ -1,0 +1,16 @@
+{
+  "extended": {
+    "source": "results/wfdg/ress_tenseed_baseline_addon/INDEPENDENT_FINAL_AUDIT_V2.json",
+    "sha256": "08662f74bba7f63daa1bb1d327a9d530d6c2ef0f6bad347c9d7e82ed4d81d902",
+    "status": "PASS",
+    "models": 6270,
+    "metric_roles": 12720
+  },
+  "original": {
+    "source": "results/wfdg/ress_tenseed_all/FINAL_AUDIT_V1.json",
+    "sha256": "ab8bfbef4300249b7d2df4dbb6dfef84bb74fb5fae697f9e0add1ee47b50360e",
+    "status": "PASS",
+    "models": 5460,
+    "metric_roles": 11100
+  }
+}

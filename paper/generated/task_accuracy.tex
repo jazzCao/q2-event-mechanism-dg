@@ -1,0 +1,38 @@
+\begin{table}[pos=htbp]
+\centering\footnotesize
+\caption{All 27 multi-source tasks: fixed-final-state window accuracy (\%), ten runs.}
+\label{tab:taskscores}
+\begin{tabular}{llrrr}
+\toprule
+Dataset & Sources$\to$target & IN+Mixup & Q2 & Deep CORAL\\
+\midrule
+PU & ABC$\to$D & $38.43\pm4.23$ & $44.84\pm3.46$ & $46.93\pm4.65$\\
+PU & ABD$\to$C & $98.42\pm0.29$ & $98.31\pm0.25$ & $98.40\pm0.30$\\
+PU & ACD$\to$B & $91.94\pm1.45$ & $92.32\pm1.66$ & $90.27\pm2.58$\\
+PU & BCD$\to$A & $96.95\pm0.31$ & $97.01\pm0.24$ & $96.36\pm0.51$\\
+PHM09 & AC$\to$B (adj.) & $96.86\pm2.04$ & $93.24\pm2.03$ & $96.43\pm1.78$\\
+PHM09 & BC$\to$A (adj.) & $98.02\pm0.95$ & $97.76\pm1.25$ & $95.22\pm2.45$\\
+PHM09 & BD$\to$C (adj.) & $78.89\pm7.13$ & $80.57\pm5.63$ & $81.41\pm6.41$\\
+PHM09 & CE$\to$D (adj.) & $91.52\pm3.71$ & $87.55\pm3.27$ & $79.07\pm4.48$\\
+PHM09 & DF$\to$E (adj.) & $72.94\pm3.87$ & $75.32\pm3.99$ & $74.59\pm2.91$\\
+PHM09 & EG$\to$F (adj.) & $81.91\pm3.65$ & $75.92\pm5.84$ & $81.58\pm3.24$\\
+PHM09 & FH$\to$G (adj.) & $57.33\pm5.28$ & $64.75\pm6.34$ & $63.06\pm2.94$\\
+PHM09 & GI$\to$H (adj.) & $82.15\pm4.71$ & $82.13\pm5.23$ & $78.54\pm3.47$\\
+PHM09 & HI$\to$J (adj.) & $89.04\pm3.72$ & $86.84\pm3.41$ & $86.68\pm4.43$\\
+PHM09 & HJ$\to$I (adj.) & $52.81\pm4.89$ & $57.27\pm4.46$ & $61.45\pm4.17$\\
+PHM09 & AB$\to$F (dist.) & $69.69\pm6.10$ & $74.29\pm3.18$ & $72.07\pm6.47$\\
+PHM09 & AB$\to$G (dist.) & $52.92\pm2.84$ & $63.25\pm3.38$ & $54.95\pm4.70$\\
+PHM09 & AB$\to$H (dist.) & $51.68\pm9.85$ & $53.17\pm7.40$ & $52.95\pm10.04$\\
+PHM09 & AB$\to$I (dist.) & $47.03\pm5.53$ & $45.25\pm4.91$ & $52.95\pm2.73$\\
+PHM09 & AB$\to$J (dist.) & $36.05\pm3.33$ & $36.62\pm2.43$ & $37.47\pm0.26$\\
+PHM09 & IJ$\to$A (dist.) & $49.76\pm10.83$ & $49.78\pm7.23$ & $53.57\pm10.10$\\
+PHM09 & IJ$\to$B (dist.) & $77.11\pm4.25$ & $68.28\pm7.66$ & $64.52\pm12.19$\\
+PHM09 & IJ$\to$C (dist.) & $77.99\pm8.68$ & $78.81\pm3.67$ & $79.43\pm7.81$\\
+PHM09 & IJ$\to$D (dist.) & $77.59\pm7.26$ & $84.84\pm6.24$ & $88.93\pm4.21$\\
+PHM09 & IJ$\to$E (dist.) & $84.62\pm6.05$ & $84.02\pm5.83$ & $98.24\pm0.82$\\
+JNU & BC$\to$A & $99.18\pm0.21$ & $99.24\pm0.49$ & $99.65\pm0.16$\\
+JNU & AC$\to$B & $99.76\pm0.19$ & $99.79\pm0.10$ & $99.96\pm0.05$\\
+JNU & AB$\to$C & $99.97\pm0.03$ & $99.97\pm0.03$ & $99.99\pm0.03$\\
+\bottomrule
+\end{tabular}
+\end{table}

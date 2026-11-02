@@ -1,0 +1,33 @@
+\begin{table}[pos=htbp]
+\centering\footnotesize
+\caption{Fixed-final-state recording balanced accuracy (\%) for all 22 recipes, ten runs.}
+\label{tab:all-last-recording_ba}
+\begin{tabular}{lrrr}
+\toprule
+Recipe & PU & PHM09 & JNU\\
+\midrule
+Author-backbone CE & $82.47\pm1.54$ & $53.41\pm2.18$ & $92.50\pm4.73$\\
+Author-backbone IN+Mixup & $86.70\pm1.02$ & $72.50\pm2.02$ & $98.33\pm3.51$\\
+Archived identity+Mixup & $86.20\pm0.87$ & $70.25\pm2.02$ & $100.00\pm0.00$\\
+Archived IN+Mixup & $86.57\pm1.47$ & $74.62\pm2.25$ & $100.00\pm0.00$\\
+CCDG (author feature core) & $83.53\pm2.15$ & $59.00\pm2.16$ & $94.17\pm4.03$\\
+Earlier event editor & $87.42\pm1.01$ & $76.97\pm1.52$ & $100.00\pm0.00$\\
+MOCD (literal equation) & $84.84\pm3.23$ & $11.09\pm1.57$ & $30.00\pm25.22$\\
+MOCD (prose interpretation) & $86.01\pm1.98$ & $67.72\pm3.46$ & $100.00\pm0.00$\\
+Whole-waveform scaling & $86.69\pm1.54$ & $72.88\pm2.20$ & $100.00\pm0.00$\\
+Archived intact control & $86.51\pm1.46$ & $75.69\pm2.40$ & $100.00\pm0.00$\\
+DANN (source domains) & $87.01\pm1.96$ & $54.44\pm1.71$ & $88.33\pm8.05$\\
+Deep CORAL (source domains) & $86.86\pm1.92$ & $75.56\pm1.52$ & $100.00\pm0.00$\\
+ERM (shared CNN+IN) & $86.97\pm2.43$ & $66.16\pm1.02$ & $100.00\pm0.00$\\
+Impulse strength only & $86.86\pm1.12$ & $77.44\pm2.19$ & $100.00\pm0.00$\\
+Matched IN+Mixup & $86.58\pm1.24$ & $74.94\pm2.95$ & $100.00\pm0.00$\\
+Timing, endpoint rates & $87.79\pm1.11$ & $76.91\pm1.64$ & $100.00\pm0.00$\\
+Unedited bank & $86.92\pm1.13$ & $75.47\pm2.85$ & $100.00\pm0.00$\\
+Global moment matching & $87.06\pm0.99$ & $75.97\pm2.15$ & $100.00\pm0.00$\\
+Proposed Q2 & $87.81\pm0.83$ & $76.72\pm1.71$ & $100.00\pm0.00$\\
+Timing, Q2 rates & $87.71\pm0.79$ & $76.06\pm0.97$ & $100.00\pm0.00$\\
+Expected-energy shrinkage & $87.81\pm0.95$ & $75.69\pm1.59$ & $100.00\pm0.00$\\
+Half-exposure Q2 & $87.68\pm1.09$ & $75.53\pm1.93$ & $100.00\pm0.00$\\
+\bottomrule
+\end{tabular}
+\end{table}

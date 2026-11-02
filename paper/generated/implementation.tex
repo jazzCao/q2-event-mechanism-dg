@@ -1,0 +1,38 @@
+\section{Task inventory and implementation details}
+\label{app:tasks}
+PU uses BCD$\to$A, ACD$\to$B, ABD$\to$C and ABC$\to$D. JNU uses
+BC$\to$A, AC$\to$B and AB$\to$C. PHM09 adjacent-domain tasks are
+AC$\to$B, BC$\to$A, BD$\to$C, CE$\to$D, DF$\to$E,
+EG$\to$F, FH$\to$G, GI$\to$H, HI$\to$J and HJ$\to$I.
+Its distant-domain tasks are AB$\to$F/G/H/I/J and IJ$\to$A/B/C/D/E,
+where each target letter defines a separate task.
+
+Source context length is 32768 samples and response support is 4 ms.
+The four carrier candidates per context are selected from source spectra above
+four times the largest paired source shaft rate and below 0.44 times the
+sampling frequency. Candidate peaks are separated by at least
+$\max(100,3f_s/N)$ Hz. Each carrier is combined with decay constants
+0.25, 0.5 and 1 ms and phases 0, $\pi/2$, $\pi$ and $3\pi/2$.
+The kernel is an exponentially decaying sinusoid multiplied by a squared
+cosine taper and normalized by its discrete $\ell_2$ norm.
+Numerical coefficients are obtained by the fixed accelerated proximal solver;
+the classifier does not update them.
+The reused numerical fits use 500 proximal iterations. Their penalties are
+specified from each normalized source context. Let
+\begin{equation}
+ \nu_j=\max\!\left\{
+ \frac{\operatorname{median}_{f\in[0.45,0.5]}
+       |\operatorname{rFFT}(\bar x_j)[f]|}{\sqrt{N\log 2}},
+ 0.005\sqrt{\frac1N\sum_t\bar x_j[t]^2}\right\},
+\end{equation}
+where $f$ is normalized frequency, and define
+\begin{equation}
+ b(G)=\frac{\nu_1+\nu_2}{2}
+ \sqrt{4+4\sqrt{\log(\max(G,2))}+2\log(\max(G,2))}.
+\end{equation}
+Then $\lambda_{s,j}=\nu_j\sqrt{2\log(2\cdot48N)}$,
+$\lambda_b=b(4)$ and $\lambda_c=b(\max(G_F,1))$, where $G_F$ is the number
+of stationary frequency candidates. The proximal step uses the fixed
+spectral-norm upper bound formed from the convolution, shaft-harmonic and
+stationary dictionaries. These numerical settings are source-derived and
+are reused for all edited views of a context.

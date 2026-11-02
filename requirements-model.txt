@@ -1,0 +1,4 @@
+# Install a PyTorch build appropriate for your hardware separately.
+# Historical local build: 2.12.1+cu126 (see provenance/BUILD.json).
+-r requirements-core.txt
+torch>=2.0

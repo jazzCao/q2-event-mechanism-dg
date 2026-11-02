@@ -1,0 +1,4 @@
+# Statistics verification needs only Python's standard library.
+# These versions were available for the release's analytic CPU checks.
+numpy==2.4.4
+scipy==1.17.1

@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-11-02T01:31:04.867699+08:00",
+  "source_commit": "10a2a29c6f5d5a2af2259837bbab8b60f0ca59b4",
+  "original_results_sha256": "0bd673143afbe0b3faffe08c518fca3a52c3f1d26c323162be7a6e00a4e5b5d8",
+  "models": 6270,
+  "roles": 12720,
+  "source_code_files_indexed": 131,
+  "source_lock_mismatches": 0,
+  "new_scientific_training": 0,
+  "new_real_data_predictions": 0,
+  "raw_signal_or_checkpoint_reads": 0,
+  "package_versions_observed_today": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "torch": "2.12.1+cu126",
+    "matplotlib": "3.11.1",
+    "pypdf": "6.19.0"
+  },
+  "note": "Environment snapshot is current packaging environment, not a claim of identical environment for every historical model."
+}

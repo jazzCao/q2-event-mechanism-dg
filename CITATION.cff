@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript accompanying this reviewer package. No publication DOI is assigned."
+type: software
+title: "Observation-anchored event-mechanism editing for fault diagnosis under unseen operating conditions"
+version: 0.1.0
+authors:
+  - family-names: Cao
+    given-names: Runze
+    affiliation: School of Reliability and Systems Engineering, Beihang University (BUAA)
+  - family-names: Liu
+    given-names: Jie
+    affiliation: School of Reliability and Systems Engineering, Beihang University (BUAA)
+date-released: 2026-11-02

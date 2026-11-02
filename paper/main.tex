@@ -1,0 +1,260 @@
+\documentclass[a4paper,fleqn]{cas-sc}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{amsmath,amssymb,microtype,booktabs,array,tikz}
+\microtypesetup{expansion=false}
+\usepackage{placeins}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\hypersetup{hidelinks}
+\setlength{\tabcolsep}{4pt}
+\setlength{\emergencystretch}{2em}
+\graphicspath{{generated/}}
+\ExplSyntaxOn
+\cs_set:Npn \__first_footerline: {\small\rmfamily Manuscript~draft}
+\ExplSyntaxOff
+\let\printorcid\relax
+% CAS puts the keyword box in a zero-width overlay; provide stretch to avoid
+% a spurious overfull-box diagnostic without changing its visible placement.
+\ExplSyntaxOn
+\RenewDocumentEnvironment{Abstract}{o}
+{
+  \group_begin:
+  \IfNoValueTF{#1}{}{\tex_gdef:D\abstractname{#1}}
+  \parindent=0pt
+  \box_if_empty:NTF\g_stm_key_box{\leftskip=.35\textwidth}
+  {
+    \dim_gset:Nn\l_tmpa_dim{\box_ht:N\g_stm_key_box}
+    \dim_gadd:Nn\l_tmpa_dim{\box_dp:N\g_stm_key_box}
+    \leftskip .35\textwidth
+    \hspace*{-.35\textwidth}
+    \noindent\hbox_to_wd:nn{0pt}{\box\g_stm_key_box\hss}
+    \skip_vertical:n{-\l_tmpa_dim}
+  }
+  \noindent\abstractname\par
+  \skip_vertical:n{-4pt}
+  \noindent\rule{.65\textwidth}{.2pt}\par\footnotesize
+  \ignorespaces\everypar{\parindent=1.5em}
+}{\par\group_end:}
+\ExplSyntaxOff
+\raggedbottom
+\begin{document}
+\let\WriteBookmarks\relax
+\shorttitle{Observation-anchored event editing for fault diagnosis}
+\shortauthors{R. Cao and J. Liu}
+\title[mode=title]{Observation-anchored event-mechanism editing for fault diagnosis under unseen operating conditions}
+\author[1]{Runze Cao}
+\author[1]{Jie Liu}
+\cormark[1]
+\affiliation[1]{organization={School of Reliability and Systems Engineering, Beihang University (BUAA)},city={Beijing},country={China}}
+\cortext[1]{Corresponding author.}
+% Add the corresponding author's confirmed email with \ead{...} before submission.
+% Funding, CRediT and competing-interest statements require the authors' confirmation.
+\begin{abstract}
+Operating-condition changes modify the timing and excitation strength of fault-related vibration events, while measured signals also contain structural responses and background components. Enforcing invariance on the entire observation can therefore suppress information useful for diagnosis. This paper proposes observation-anchored event-mechanism editing for domain-generalized fault diagnosis. A source-only sparse analyzer estimates events in a finite response dictionary. The editor changes event locations and effective impulse strength while retaining the response kernels and the remainder of each measured observation. Factual and edited source views train a shared log-spectrum classifier with instance normalization and Mixup. Deployment requires only a vibration window and introduces no additional analysis branch. Experiments cover 27 multi-source tasks on Paderborn bearings, PHM09 gearboxes and JNU bearings, with ten random runs per task. The proposed recipe achieves window accuracies of $83.12\pm0.94\%$, $71.98\pm0.95\%$ and $99.67\pm0.17\%$, respectively. Its dataset-equal accuracy exceeds matched instance normalization and Mixup by 0.80 percentage points and the unedited-bank control by 0.79 points. Same-rate timing-only and global-moment controls distinguish the contribution of selective event editing. On PU, recording-level fault-to-healthy errors decrease from 10.41\% to 9.12\%; on PHM09, the run-to-run standard deviation decreases from 1.85 to 0.95 points. Comparisons with strong alignment baselines, checkpoint selection and a single-source extension characterize the conditions under which the editor provides useful diagnostic improvements.
+\end{abstract}
+\begin{keywords}
+Fault diagnosis \sep Domain generalization \sep Mechanism intervention \sep Sparse event analysis \sep Vibration signals
+\end{keywords}
+\maketitle
+
+\section{Introduction}
+Vibration-based fault diagnosis supports condition monitoring and maintenance by identifying changes in the health state of rotating machinery. Deep diagnostic models can learn discriminative patterns from labeled measurements, but their deployment often involves speeds and loads that differ from those observed during training. A change in operating condition modifies both the excitation of a fault and the way its response appears in a measurement. Consequently, a classifier may fail even when the target fault categories are represented in its training data.
+
+Domain generalization (DG) addresses this setting by training on observed source conditions and evaluating on an unseen target condition. Unlike domain adaptation, it does not require target observations during training. Recent research has developed alignment, contrastive, augmentation and causal learning strategies for this purpose \cite{zhao2024,chen2025}. The application-oriented study of Zhao et al.~\cite{zhao2024} also shows why empirical risk minimization (ERM), evaluation protocols and the distinction between condition and machine transfer matter when assessing these methods. A useful diagnostic method must demonstrate its increment under the actual information available at deployment.
+
+Causal approaches offer a way to organize this problem around factors that generate the measurements. CIS2N constrains feature dependence and changes between intervention pairs \cite{cis2n}. PC3Net combines prior features, causal-feature learning and collaborative classification for single-source generalization \cite{pc3net}. Anti-causal learning studies the causes of simulated domain shifts \cite{antic2024}. These approaches place useful structure on representation learning. However, operating conditions can affect fault-bearing components themselves: impact spacing, impulse strength and resonance response need not change together. A restriction on an entire representation or waveform does not explicitly distinguish these actions.
+
+This observation motivates a different intervention location. Rather than estimate a condition branch and remove it, we change a specified part of the source observation while retaining the remaining measured signal. Under a convolutional event model, moving an excitation changes its occurrence time without necessarily changing the response kernel. In contrast, dilating an entire waveform moves the excitation and changes the oscillations within its response. Moreover, a sparse analysis model cannot be expected to explain every useful component of a real measurement. Replacing the complete signal with its reconstruction would discard that unexplained information.
+
+We propose observation-anchored event-mechanism editing to address these two issues. A numerical source analyzer estimates event coefficients and finite response kernels. The editor moves the estimated events, scales their effective impulse strength according to a fixed rule, and adds the change to the original measurement. The response kernels and the observation-anchored remainder are retained. This construction supplies edited source queries to a conventional diagnostic network; the analyzer is absent from deployment. The method is causal in its motivation and intervention specification within a working signal-generation model. Its learning contribution is evaluated by matched controls that separate event timing, impulse strength, global amplitude statistics and bank sampling.
+
+The main contributions are as follows.
+\begin{enumerate}
+\item An observation-anchored event operator changes event locations and effective impulse strength without dilating the response kernels or replacing the unexplained measured signal. The operator recovers the factual observation exactly at unit rate.
+\item A source-only learning procedure integrates the editor with factual supervision and feature-space Mixup. Source analysis is performed offline, and the deployed classifier uses a single vibration window without target speed, a paired recording or an inverse solver.
+\item A ten-run evaluation across 27 cross-condition tasks establishes the operator's increment over matched strong controls and examines recording-level errors and repeatability. Timing-only, impulse-only, moment-matched and exposure controls identify which parts of the construction contribute, while a six-direction single-source extension tests its behavior under reduced source coverage.
+\end{enumerate}
+
+\section{Related work}
+\subsection{Domain generalization for fault diagnosis}
+DG methods seek a diagnostic rule that transfers beyond the source distributions. Distribution alignment encourages shared feature statistics; domain-adversarial learning discourages source-domain discrimination; contrastive methods use labels to organize inter-domain relationships. CCDG, for example, promotes class-conditioned agreement using a contrastive objective \cite{ccdg}. Deep CORAL and domain-adversarial learning provide established alignment objectives \cite{coral,dann}; in a DG setting these objectives can be applied among source domains without supplying target observations.
+
+DG also includes distinct information settings. Multi-source DG learns from several observed conditions, whereas single-source DG must construct useful variation from one condition. PC3Net combines statistical prior features and learned causal features in the latter setting \cite{pc3net}. More recent semi-supervised DG addresses incomplete source labels: the two-stage network of Cui et al.~\cite{cui2026} combines pseudo-label construction, feature augmentation and regularized generalization learning. These settings should be distinguished when comparing results. The main study here is supervised multi-source cross-condition diagnosis; the JNU single-source extension is reported separately.
+
+\subsection{Causal representations and mechanism-guided construction}
+CIS2N formulates causal independence and sparse feature shifts, implemented through random Fourier feature covariance and a sparse-shift penalty \cite{cis2n}. MOCD combines sample matching with dual representations intended to distinguish class-related and domain-related information \cite{mocd}. CFDCR integrates causal representation learning with adversarial adaptation and uses unlabeled target data \cite{cfdcr}; it is therefore a related causal approach with a different information setting. These works motivate structural constraints but differ from an explicit edit of an estimated source-signal component.
+
+Physical source construction offers another route. Pang et al.~\cite{pang2024} combine analytical fault vibration with measured normal backgrounds. Shi et al.~\cite{shi2024} combine semi-physical simulation and contrastive decoupling under speed variation. Physics-guided counterfactual causal learning uses counterfactual regularization and an order-interaction network for single-source cross-machine diagnosis \cite{pcr2026}. Thus physical synthesis, measured background and counterfactual learning are established ideas. The present contribution is more specific: each edit retains the remainder of its own labeled observation and changes the estimated event clock while holding the response kernels fixed.
+
+\input{position.tex}
+Table~\ref{tab:position} summarizes this distinction. The numerical sparse solver \cite{fista}, instance normalization (IN) \cite{in} and Mixup \cite{mixup} are adopted components. The proposed method concerns their use with an observation-anchored event intervention, and the experiments isolate this intervention from the benefits of the surrounding classifier recipe.
+
+\input{generated/method.tex}
+
+\section{Experimental design}
+\label{sec:experiments}
+\input{generated/protocol.tex}
+
+\subsection{Baseline implementations and comparison scope}
+The comparisons address two questions: the performance of complete diagnostic recipes and the contribution of the proposed editor. The complete-recipe panel includes an ERM classifier using the shared CNN and IN, source-domain DANN and Deep CORAL, author-backbone CE and IN+Mixup, adapted CCDG and two documented MOCD interpretations. The ERM, DANN and Deep CORAL baselines use the same source pools, class/domain-balanced sampling, 2000 updates and Adam learning rate $10^{-4}$; they use cross-entropy without Mixup or event editing. DANN applies a source-domain discriminator through gradient reversal. Deep CORAL averages pairwise covariance alignment penalties over source domains. Neither receives target samples.
+
+The author-backbone CCDG family retains its 3001-update schedule and the author's feature-layer contrastive core, with declared input length, class-count and data-role adaptations. A separate MOCD family uses its two-stage 400+400-update schedule. Its equation-literal and prose/stop-gradient implementations remain separate entries; the prose interpretation is included in the representative main table and both are retained in the complete appendix. These rows compare implemented complete recipes under the current tasks, rather than reproducing the original papers' headline scores.
+
+Operator attribution uses the matched controls of Section~\ref{sec:method}. They share the CNN, IN, Mixup, optimizer, batch layout, steps and source pools with Q2. The unedited-bank arm also shares the source query construction. The proposed Q2 recipe is kept fixed across all three datasets. A half-exposure comparison changes only how often the already-defined edit is applied; it does not define a new primary method. The entire multi-source panel contains 22 recipes. PCR is evaluated on aligned PU recording roles, and the single-source extension is evaluated separately on JNU.
+
+\subsection{Metrics, repetition and checkpoint selection}
+Window accuracy is the fraction of correctly classified windows; window macro-F1 averages class F1 over the declared label set. Recording predictions are obtained by averaging window probabilities within each recording and then taking the maximum-probability class. Recording balanced accuracy (BA) averages class recalls. Window accuracy weights windows within a task, whereas recording metrics give each recording one prediction. These two evaluation units are kept separate.
+
+For dataset $d$, task set $\mathcal T_d$ and run $r$, the dataset score is
+\begin{equation}
+ S_{d,r}=\frac{1}{|\mathcal T_d|}\sum_{t\in\mathcal T_d}S_{t,r},\qquad
+ S_r=\frac13\sum_{d=1}^{3}S_{d,r}.
+ \label{eq:aggregation}
+\end{equation}
+Tables report the mean and sample standard deviation of the ten run scores, with denominator nine for the variance. The dataset-equal summary $S_r$ gives PU, PHM09 and JNU equal weight; a task-equal summary over 27 tasks is also retained in the accompanying results. Run seeds affect initialization and sampling and, where specified by the protocol, source train/validation assignment. The reported dispersion therefore describes repeated execution of the complete experimental recipe.
+
+The primary checkpoint is the fixed final training state. For Q2 and matched controls this is update 2000. The secondary policy selects the earliest strict best source-validation state from updates 0, 1000 and 2000. For matched multi-source arms, the selection score averages window accuracy equally over source domains; the JNU single-source extension uses source class-balanced accuracy. Each baseline uses its corresponding declared checkpoints. Model selection does not use target scores, and all source models in each comparison are frozen before target evaluation. The repeated-run results use the fixed tasks and recipes; the dataset panel had already been examined during method development.
+
+For paired interpretation, the ten differences between Q2 and a control are formed before computing their mean and descriptive 95\% $t_9$ interval. These intervals are post-result, unadjusted summaries of variation across runs on the fixed panel. They do not treat overlapping windows or repeated tasks as independent physical experiments. The main performance evidence is the complete mean$\pm$SD tables, per-task differences and matched component controls.
+
+\section{Results and analysis}
+\subsection{Cross-condition diagnosis performance}
+\input{generated/main_accuracy.tex}
+\input{generated/main_f1.tex}
+Table~\ref{tab:main} shows the fixed-final-state results. Q2 attains 83.12\%, 71.98\% and 99.67\% window accuracy on PU, PHM09 and JNU, respectively. Relative to matched IN+Mixup, the increments are 1.68, 0.69 and 0.03 percentage points. The dataset-equal mean is 84.92\%, with an increment of 0.80 points; nine of the ten paired run averages are positive. The corresponding increment over the unedited-bank control is 0.79 points, also positive in nine runs. These comparisons retain the surrounding learning recipe and provide direct evidence for the added source intervention.
+
+The strong conventional baselines qualify the overall ranking. ERM reaches 82.97\% on PU and 99.71\% on JNU, while its PHM09 accuracy is 63.81\%. Deep CORAL reaches 82.99\%, 72.65\% and 99.87\%, respectively. Q2 is higher on PU but lower on the other two datasets; its dataset-equal window accuracy is 0.25 points below Deep CORAL. The performance of DANN and the author-backbone recipes varies more substantially across datasets. Thus, complete-recipe differences are useful for assessing competitiveness, while the matched comparisons locate the event editor's contribution.
+
+Table~\ref{tab:f1} reports complementary metrics. Q2 improves window macro-F1 over matched IN+Mixup by 1.50 points on PU and 0.91 points on PHM09. Recording BA increases from 86.58\% to 87.81\% on PU and from 74.94\% to 76.72\% on PHM09. Q2 also has higher recording BA than Deep CORAL on these two datasets, although Deep CORAL has higher PHM09 window accuracy. This difference shows why a single aggregate accuracy does not fully describe diagnostic behavior. On JNU, the strong recipes are close to the ceiling, and recording BA is 100\%; this case primarily demonstrates compatibility with another dataset.
+
+\subsection{Performance across individual target tasks}
+\begin{figure}[pos=htbp]
+\centering
+\includegraphics[width=.97\linewidth]{task_differences.pdf}
+\caption{Ten-run mean window-accuracy differences on every multi-source task. Blue denotes a Q2 gain and red a loss. The color scale is clipped at $\pm10$ points; cell annotations retain the actual values. All tasks are shown, including unfavorable target conditions.}
+\label{fig:task-differences}
+\end{figure}
+Figure~\ref{fig:task-differences} locates the aggregate changes. On PU, the largest benefit occurs when the target is condition D, at 900 rpm: Q2 improves over matched IN+Mixup from 38.43\% to 44.84\%. The other three targets are already above 91\%, and their changes are much smaller. Deep CORAL remains stronger on D at 46.93\%. Q2's PU advantage is consequently concentrated in a difficult speed-transfer task, together with smaller gains on two other targets.
+
+PHM09 contains both favorable and unfavorable transfers. Q2 gains 10.33 points over matched IN+Mixup on AB$\to$G and 7.24 points on IJ$\to$D, but loses 8.83 points on IJ$\to$B. Gains therefore do not follow only from the number of source conditions or from calling a task extrapolative. The full task table in Appendix~\ref{app:taskresults} retains these differences. The three JNU multi-source tasks have little remaining headroom; their single-source counterparts provide a more demanding extension without redefining the main protocol.
+
+\subsection{What contributes to the event editor?}
+\input{generated/ablation.tex}
+Table~\ref{tab:ablation} distinguishes bank sampling from editing and separates the two intervention components. The unedited bank gives 81.47\% on PU and 71.29\% on PHM09, close to matched IN+Mixup. Q2 improves these means to 83.12\% and 71.98\%. Consequently, drawing auxiliary queries from a prepared source bank does not by itself account for the observed increment.
+
+At the same Q2 rates, timing-only editing gives 82.84\%, 71.26\% and 99.63\%. Adding the effective-impulse rule increases dataset-equal accuracy by 0.346 points, with a positive difference in all ten runs. Conversely, adding timing to impulse-only editing increases the dataset-equal mean by 0.355 points, although impulse-only editing is stronger on PHM09. The whole-query moment control matches the edited query's mean and centered RMS, yet remains 0.676 points below Q2 in the dataset-equal summary. The useful change is therefore not fully explained by a global amplitude adjustment.
+
+The two intervention components are not uniformly synergistic. The accuracy interaction $S_Q-S_T-S_A+S_F$ is +0.280 points on PU, $-0.569$ on PHM09 and +0.020 on JNU. The combined construction is beneficial in the main aggregate, but these interactions do not establish a positive coupling effect on every dataset. The endpoint timing recipe is also competitive: its dataset-equal mean is only 0.247 points below Q2. The evidence favors the specified local event construction over the matched simple recipe, rather than an unrestricted claim that stronger event changes always improve diagnosis.
+
+\subsection{Repeatability and checkpoint policy}
+\input{generated/stability.tex}
+\begin{figure}[pos=htbp]
+\centering
+\includegraphics[width=.99\linewidth]{run_stability.pdf}
+\caption{Dataset scores for all ten runs under the fixed-final-state policy. Each point first averages the tasks within its dataset. The vertical scales differ to resolve variation near the JNU ceiling.}
+\label{fig:stability}
+\end{figure}
+The PHM09 improvement is accompanied by lower run-to-run dispersion. Its dataset-level accuracy SD falls from 1.848 to 0.950 points, a 48.6\% reduction. The average within-task SD also decreases, from 5.234 to 4.669 points, and 13 of 20 tasks show a reduction. This agreement between aggregate and task-wise summaries supports improved repeatability on PHM09. PU exhibits a smaller aggregate reduction, from 0.976 to 0.943 points, with lower SD on three of four tasks. JNU does not show this pattern: its aggregate SD rises from 0.079 to 0.167 points. Repeatability is therefore a dataset-dependent benefit, not a general noise-robustness claim.
+
+\input{generated/selected.tex}
+Table~\ref{tab:selection} evaluates the source-selected policy on the same trained trajectories. Q2 gives 83.00\%, 71.58\% and 99.74\%, and its dataset-equal advantage over matched IN+Mixup is 0.61 points. This is positive in eight of ten runs. On PHM09, the global-moment control reaches 73.00\% and Deep CORAL reaches 71.97\%, both above Q2. The primary and secondary policies therefore support related but distinct conclusions; the best target outcome is not used to choose between them.
+
+\begin{figure}[pos=htbp]
+\centering
+\includegraphics[width=.94\linewidth]{paired_contrasts.pdf}
+\caption{Paired dataset-equal accuracy differences under both checkpoint policies. Bars are descriptive 95\% $t_9$ intervals over ten paired run averages, without multiple-comparison adjustment. Zero indicates the control mean. These intervals summarize run variation conditional on the fixed task panel.}
+\label{fig:paired}
+\end{figure}
+Figure~\ref{fig:paired} gives the paired uncertainty summaries. For the primary policy, the Q2-minus-IN+Mixup interval is $[0.342,1.259]$ points; the same-rate timing-only comparison is $[0.243,0.448]$. The comparison with Deep CORAL is $[-0.597,0.103]$. These descriptive results complement, rather than replace, the dataset and task tables. Complete paired values are reported in Appendix~\ref{app:complete}.
+
+\subsection{Recording-level diagnostic errors}
+\input{generated/error_rates.tex}
+Table~\ref{tab:errors} translates the PU classification results into two practically different errors. Relative to matched IN+Mixup, the fraction of faulty recordings called healthy decreases from 10.41\% to 9.12\%, while healthy false alarms decrease from 3.69\% to 3.19\%. Confusion between inner- and outer-race faults changes from 7.88\% to 7.57\%. These are ten-run, task-averaged recording rates calculated from the saved confusion matrices. They show an improvement in fault recognition without an accompanying increase in the mean false-alarm rate.
+
+Deep CORAL has a lower fault-to-healthy miss rate of 8.43\%, but a higher healthy false-alarm rate of 6.63\%. Q2 and Deep CORAL therefore make different diagnostic trade-offs. No operating threshold is tuned on target data, and the reported errors use the original maximum-probability decisions. The measurements concern classification performance and are not estimates of machine failure probability or maintenance cost.
+
+\subsection{Comparison with physics-guided counterfactual learning}
+\input{generated/pcr_last.tex}
+Table~\ref{tab:pcr-last} compares Q2 with the implemented PCR-OIPN variants \cite{pcr2026}. Their native 40-revolution inputs cover different windows from the short-input models. Predictions are therefore compared after averaging probabilities over the same PU recording roles. Q2 gives 84.81\% recording accuracy, 84.00\% macro-F1 and 87.81\% BA, compared with 82.51\%, 80.28\% and 84.37\% for native PCR. The native author CE baseline attains higher recording accuracy at 85.58\%, but lower macro-F1 and BA. The comparison does not imply that all benefits arise from counterfactual learning or that Q2 dominates all evaluation metrics.
+
+The information requirements also differ. The native angular frontend uses recorded target speed to form the 40-revolution input; Q2's deployed frontend uses vibration alone. All variants retain their declared frontends and training rules. This experiment evaluates a multi-source cross-condition adaptation, whereas the original PCR study addresses single-source cross-machine diagnosis. It is included as a mechanism-related comparison, without substituting published results obtained under a different protocol.
+
+\subsection{Reduced source coverage on JNU}
+\input{generated/sdg.tex}
+The single-source extension trains from one JNU speed and evaluates on each of the other two, yielding six directions. Source event analysis uses two legal training contexts from the same source speed; it does not introduce an additional observed condition. Each of the three methods trains three source models per run, and each frozen model supplies two target evaluations.
+
+The fixed-final-state accuracy decreases from the near-ceiling multi-source values to 94.95\% for IN+Mixup, 95.61\% for the unedited bank and 95.72\% for Q2 (Table~\ref{tab:sdg}). The 0.77-point Q2 increment over IN+Mixup is mostly accompanied by the change to bank sampling: the increment over the unedited bank is only 0.11 points. Under source selection, Q2 is also slightly below IN+Mixup. These results demonstrate that the operator remains usable with a source-local analyzer, while providing limited evidence for a distinct single-source editing advantage. The six directions are all retained in the appendix.
+
+\input{generated/source_examples.tex}
+
+\section{Discussion}
+\subsection{Interpretation of the mechanism}
+The proposed editor makes an explicit distinction between event occurrence, effective impulse strength, response shape and the retained observation. Its intervention has a defined action before the diagnostic representation is learned. The unit-rate identity and fixed-response construction establish properties of the operator, while the matched ablations establish its empirical diagnostic contribution. Reconstruction quality alone would not establish either label preservation or improved transfer.
+
+This interpretation also clarifies the role of the other components. IN and Mixup are effective parts of the classifier recipe, and the log-spectrum frontend supplies a compact frequency representation. The matched comparisons keep these components fixed, so the remaining Q2 increment can be attributed to the specified source construction within that recipe. They do not show that the event editor is the largest contributor to the complete system or that it is indispensable on every dataset. The PHM09 alignment baseline and impulse-only control provide substantive alternative explanations for parts of the performance.
+
+The event model specifies a local, model-based intervention. Its estimated coefficients are not direct physical measurements of every impact, and the remainder can contain both fault information and condition effects. The fixed strength--rate coupling is an augmentation rule, not a universal load--speed law. Because the remainder retains its observed coordinates, the edit is narrower than a complete physical change of shaft speed. This selective construction avoids deleting unexplained fault evidence while creating controlled variation in a plausible signal-generation mechanism.
+
+\subsection{Deployment and computational implications}
+The event analyzer and source bank are used only during preparation and training. Q2 and its matched IN+Mixup control have identical deployed networks: 2,200,627 parameters on PU, 2,201,272 on PHM09 and 2,200,756 on JNU. Convolution and linear layers require approximately 5.751 million multiply--accumulates per window, excluding the FFT frontend, normalization, activations and memory operations. Thus the editor adds no deployed trainable parameters or convolution/linear operations.
+
+Source preparation has a real cost. A previously audited three-run preparation campaign built 81 task/run banks from 3372 context groups in 52.69 minutes, including all five rendered rates, control features, I/O and fingerprint checks. This measurement reuses existing 500-iteration numerical fits and is neither the initial inverse-fitting time nor the total ten-run cost. The matched classification arms share 2000 updates and the same batch layout. The practical benefit is therefore a separation between offline source construction and ordinary online diagnosis, rather than a claim of cost-free augmentation.
+
+\subsection{Application scope}
+The experiments evaluate transfer across recorded conditions. PU repeats bearing identities across conditions; PHM09 configuration labels do not identify gearbox serial units; JNU uses separated time blocks of existing recordings. The three datasets therefore support cross-condition diagnosis under the stated protocols, with the multi-source and single-source settings kept distinct. Cross-machine confirmation would require a corresponding evaluation design.
+
+The current evidence is strongest for a selective source intervention that improves a fixed, strong classifier recipe on PU and PHM09. It also shows more repeatable PHM09 training and lower PU recording-level error rates. Deep CORAL remains a strong competitor, source selection changes some rankings, and JNU offers limited multi-source headroom. Future work can examine event-model adequacy and intervention-strength selection using source evidence, together with testing under explicitly measured disturbance and machine changes. Those extensions are separate from the completed experiments reported here.
+
+\section{Conclusion}
+This paper proposes observation-anchored event-mechanism editing for fault diagnosis under unseen operating conditions. A source-only sparse analyzer supplies events and response kernels; the editor changes event timing and effective impulse strength while preserving the remainder of each measured observation. The resulting source views train a conventional classifier with vibration-only deployment.
+
+Across 27 multi-source tasks and ten runs, Q2 improves dataset-equal accuracy by 0.80 percentage points over matched IN+Mixup and by 0.79 points over an unedited-bank control. Timing-only and moment-matched comparisons support a contribution from the specified event construction. The method also reduces PU recording-level missed faults and improves PHM09 repeatability. Strong alignment baselines and the single-source extension show that these benefits are condition-dependent. The results establish observation-anchored event editing as a practical source-training mechanism whose diagnostic contribution can be measured without adding complexity to the deployed model.
+
+\appendix
+\FloatBarrier
+\input{generated/implementation.tex}
+\subsection{Source-domain alignment baselines}
+For DANN, a source-domain head maps the shared 256-dimensional representation to 128 hidden units with ReLU and then to source-domain logits. The gradient-reversal coefficient follows $2/(1+\exp(-10p))-1$, where $p$ is training progress, and is applied once. Deep CORAL averages covariance discrepancies between each source pair, using unbiased sample covariance and squared Frobenius distance divided by $4d^2$, where $d=256$. Its alignment weight is one. Both baselines retain the same source pools and fixed training schedule as the ERM baseline. They do not perform target adaptation.
+
+\subsection{Exposure controls}
+Conditional on the original edit mask, half exposure retains an edit with probability 0.5 and otherwise uses the same clean bank query. The expected edited fraction of auxiliary positions falls from 0.5 to 0.25. The expected-energy control instead scales every log-feature edit difference by $\sqrt{0.5}$. All other training choices are unchanged.
+\input{generated/exposure.tex}
+Standard Q2 exceeds half exposure by 0.107 points in the primary dataset-equal mean, with only five of ten paired differences positive. Under source selection, half exposure is 0.132 points higher. This sensitivity does not justify replacing the fixed main recipe; both policies and all exposure rows are retained.
+
+\FloatBarrier
+\section{Complete comparison and paired summaries}
+\label{app:complete}
+The following tables retain all 22 multi-source recipes. The main comparisons use the fixed final state; source selection is reported separately. The poor MOCD equation-literal result is kept as an implementation-interpretation result and is not used to characterize the original method's published performance. Each table reports ten-run mean$\pm$sample SD with the task weighting in Eq.~\eqref{eq:aggregation}.
+\input{generated/all_last.tex}
+\input{generated/all_selected.tex}
+\input{generated/paired.tex}
+\input{generated/all_last_macro_f1.tex}
+\input{generated/all_selected_macro_f1.tex}
+\input{generated/all_last_recording_ba.tex}
+\input{generated/all_selected_recording_ba.tex}
+
+\FloatBarrier
+\section{Task-level and extension results}
+\label{app:taskresults}
+\input{generated/task_accuracy.tex}
+\FloatBarrier
+\subsection{JNU single-source extension}
+\label{app:jnu-sdg}
+The same temporal source roles and classifier schedule are retained. Numerical analysis uses source-local contexts. No target speed or second-source recording is introduced. The six directions below evaluate the same three trained source models per method/run; the two target evaluations of one source model are not counted as two independently trained models.
+\input{generated/sdg_tasks.tex}
+\input{generated/pcr_selected.tex}
+
+\FloatBarrier
+\section{Additional measured-source illustrations}
+\label{app:source-examples}
+Class-0 source examples use the same fixed metadata selection rule as Fig.~\ref{fig:source-edit}. Class 0 is healthy for PU and JNU; for PHM09 it is configuration 1. The source examples are illustrations of operator action, not examples selected for target accuracy. Their identifiers and edit energies are provided below.
+\input{generated/source_example_values.tex}
+\input{generated/source_identifiers.tex}
+\begin{figure}[pos=htbp]
+\centering
+\includegraphics[width=.98\linewidth]{real_source_reference_examples.pdf}
+\caption{Fixed class-0 source examples. PHM09 configuration 1 is not assumed to be a verified healthy reference. The within-column amplitude convention is the same as in Fig.~\ref{fig:source-edit}.}
+\label{fig:reference-examples}
+\end{figure}
+\FloatBarrier
+\input{references.tex}
+\end{document}
